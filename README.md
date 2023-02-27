@@ -32,9 +32,12 @@ public interface List<E> extends Collection<E>
   ```mermaid
   
   sequenceDiagram
-
- java.util.AbstractCollection->>java.util.AbstractList:extends 
+ 
+java.util.Collection->>java.util.AbstractCollection:implements
+java.lang.Object->>java.util.AbstractCollection:extends
+java.util.AbstractCollection->>java.util.AbstractList:extends 
 java.util.AbstractList->>java.util.List:implements
+
   
   ```
   
@@ -44,6 +47,10 @@ java.util.AbstractList->>java.util.List:implements
 public abstract class AbstractList<E>
 extends AbstractCollection<E>
 implements List<E>
+    
+public abstract class AbstractCollection<E>
+extends Object
+implements Collection<E>
   
   ```
   </h3>
