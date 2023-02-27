@@ -29,6 +29,15 @@ public interface List<E> extends Collection<E>
   <h1 align="Center"> AbstractList</h1>
   <ul>
   
+  ```mermaid
+  
+  sequenceDiagram
+
+ java.util.AbstractCollection->>java.util.AbstractList:extends 
+java.util.AbstractList->>java.util.List:implements
+  
+  ```
+  
   <h3 align="Center">
   
   ```
