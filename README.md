@@ -1,4 +1,4 @@
-<h1>Java Collection-List </h1>
+<h1 align="Center">Java Collection-List </h1>
 
 <h3>The <i>List</i> interface extends Collection and declares the behavior of a collection that stores a sequence of elements. Elements can be inserted or accessed by
 their position in the list, using a zero-based index. A list may contain duplicate elements. List is a generic interface that has this declaration:</h3>
@@ -24,5 +24,20 @@ public interface List<E> extends Collection<E>
   <h3> <li><i>5.AbstractSequentialList:</i> → It extends  the <i>AbstractList</i> into a sequential(not random access)list.</li></h3>
   <h3> <li><i>6.LinkedList:</i> → It extends the <i>AbstractSequentialList</i> into a linked list, where each element knows where the next element is.</li></h3>
   <h3> <li><i>7.ArrayList:</i> → It implements a dynamic(resizable) array.</li></h3>
+  
+  <h1></h1>
+  <h1 align="Center"> AbstractList</h1>
+  <ul>
+  
+  <h3 align="Center">
+  
+  ```
+public abstract class AbstractList<E>
+extends AbstractCollection<E>
+implements List<E>
+  
+  ```
+  </h3>
+  </ul>
 
 
