@@ -6,7 +6,7 @@ their position in the list, using a zero-based index. A list may contain duplica
 <h3 align="Center">
 
 ```
-interface List<E>
+public interface List<E> extends Collection<E>
 
 ```
 </h3>
