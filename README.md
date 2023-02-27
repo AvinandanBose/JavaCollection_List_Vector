@@ -57,5 +57,30 @@ implements Collection<E>
   
 <h3>The <i>AbstractList Class</i> is an Abstract Class extends another Abstract Class AbstractCollection and implements List interface  .Note AbstractCollection , the abstract class which implements Collection interface and extends the Object class , the parent class of all the classes. The AbstractList is the foundation of other classes such as ArrayList, which supports dynamic arrays. </h3>
   </ul>
+    
+  <h1></h1>
+  <h1 align="Center"> Division of AbstractList</h1>
+  <ul>
+    
+
+  
+  ```mermaid
+    
+    graph TD;
+    
+    Object-->|extends| AbstractCollection;
+    AbstractCollection-->|implements| Collection;
+    AbstractList-->|extends|AbstractCollection;
+    List-->|implements|AbstractList;
+    AbstractList-->|extends|ArrayList;
+    AbstractList-->|extends|AbstractSequentialList;
+    AbstractList-->|extends|Vector;
+    AbstractSequentialList-->|extends|LinkedList;
+   
+  ```
+  
+    
+  </ul>
+
 
 
