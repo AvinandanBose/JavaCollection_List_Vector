@@ -82,6 +82,9 @@ implements Collection<E>
  <h3> <i><ins>Note:</ins> The Vector class is deprecated since Java 5. Deprecated means it is supported but less in use or not recommended. Where as,  ArrayList and LinkedList are widely used in Java programming. </i></h3> 
  
   </ul>
+   
+ <h1></h1>
+<h1 align="Center">Array List</h1>
 
 
 
