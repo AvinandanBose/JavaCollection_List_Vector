@@ -383,7 +383,25 @@ that is initialized with the  elements of the collection c.
   Definition: Returns true if this list contains no elements.
   
   ```
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList16.java"> 12. lastIndexOf ( Object O ) .</li></h3>
+    
+  ```Syntax
   
+  Definition: The index of the last occurrence of a specific element ,
+    is either returned or -1 in case the element is not in the list.
+    
+    : i.e. :
+    
+    arrayList.add("Hello");
+    arrayList.add("World");
+    arrayList.add("!");
+    arrayList.add("Hello");
+    arrayList.add("World");
+    arrayList.add("!");
+    
+    arrayList.lastIndexOf("Hello") = 3
+  
+  ```
   
   
 </ul>  
