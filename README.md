@@ -182,7 +182,8 @@ Definition: The above constructor builds an empty array list.
      
 ```Syntax
  
-Definition: This constructor builds an array list, that is initialized with the  elements of the collection c.
+Definition: This constructor builds an array list, 
+that is initialized with the  elements of the collection c.
      
 ```
    <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList3.java"> 3. ArrayList( int capacity ) .</li></h3>
