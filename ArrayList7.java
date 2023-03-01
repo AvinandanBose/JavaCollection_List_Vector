@@ -20,6 +20,20 @@ public class ArrayList7 {
 
         System.out.println(arrayList);
 
+        //if Raw Type
+        ArrayList arrayList2 = new ArrayList<>();
+        arrayList2.add("Hello");
+        arrayList2.add("World");
+        arrayList2.add("!");
+        ArrayList arrayList3 = new ArrayList<>();
+        arrayList3.add(1);
+        arrayList3.add(2);
+        arrayList3.add(3);
+        arrayList2.addAll(1,arrayList3);
+
+        System.out.println(arrayList2);
+
+
 
     }
     
