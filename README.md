@@ -574,13 +574,25 @@ that is initialized with the  elements of the collection c.
 
   ```
   
-   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList30.java"> 26. sort( Comparator < ? super E > c ) .</li></h3>
+ <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList30.java"> 26. sort( Comparator < ? super E > c ) .</li></h3>
  
  
  ```Syntax
   
   Definition: Sorts this list according to the order ,
   induced by the specified Comparator. 
+  
+
+  ```
+  
+<h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList31.java"> 27. trimToSize() .</li></h3>
+ 
+ 
+ ```Syntax
+  
+  Definition: Trims the capacity of this ArrayList instance,
+  to be the list's current size. An application can use this,
+  operation to minimize the storage of an ArrayList instance.
   
 
   ```
