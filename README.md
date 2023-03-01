@@ -71,9 +71,11 @@ implements Collection<E>
     graph TD;
     
     Object-->|extends| AbstractCollection;
+    Object-->|extends|CopyOnWriteArrayList;
     AbstractCollection-->|implements| Collection;
     AbstractList-->|extends|AbstractCollection;
     List-->|implements|AbstractList;
+    List-->|implements|CopyOnWriteArrayList;
     AbstractList-->|extends|ArrayList;
     AbstractList-->|extends|AbstractSequentialList;
     AbstractList-->|extends|Vector;
