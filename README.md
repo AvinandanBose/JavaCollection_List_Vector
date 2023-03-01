@@ -506,6 +506,17 @@ that is initialized with the  elements of the collection c.
     
   ```
   
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList24.java"> 20. set (int index, E element)  .</li></h3>
+ 
+ 
+ ```Syntax
+  
+  Definition: Sets or Replaces the element at the specified position ,
+  in this list with the specified element or at a given index.
+
+    
+  ```
+  
 </ul>  
 </ul>
 
