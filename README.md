@@ -423,6 +423,15 @@ that is initialized with the  elements of the collection c.
   
   ```
   
+     <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList19.java"> 15. remove ( int index ) .</li></h3>
+   
+ ```Syntax
+  
+  Removes the element at the specified position in this list.
+   
+  
+  ```
+  
   
 </ul>  
 </ul>
