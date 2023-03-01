@@ -155,6 +155,9 @@ implements Collection<E>
     <h3><li><i>7.We can not create an array list of the primitive types, such as int, float, char, etc. It is required to use the required wrapper class.That is it follows : <a href="https://github.com/AvinandanBose/JavaGeneric"> Generic</a> characteristics. </i></li></h3>
     
    </ul>
+   
+   <h2></h2>
+   <h2 align="Center"> Constructors Of ArrayList</h2>
   
 </ul>
 
