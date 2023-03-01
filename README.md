@@ -342,6 +342,29 @@ that is initialized with the  elements of the collection c.
   
   ```
   
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList12.java"> 8. ensureCapacity ( int minCapacity ) .</li></h3>
+     
+  
+  ```Syntax
+  
+  Definition: Increases the capacity of this ArrayList instance, if necessary, 
+  to ensure that it can hold at least the number of elements specified by the
+  minimum capacity argument.
+ 
+  
+  ```
+  
+   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList13.java"> 9. forEach?(Consumer < ? super E > action) .</li></h3>
+     
+  
+  ```Syntax
+  
+  Definition: Performs the given action for each element of the Iterable,
+  until all elements have been processed or the action throws an exception.
+ 
+  
+  ```
+  
   
 </ul>  
 </ul>
