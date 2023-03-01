@@ -227,7 +227,7 @@ that is initialized with the  elements of the collection c.
     world at index : 1 .
     
     And it will add the element and size of the ArrayList will get,
-    index. And the previous element existed at index 1 will become 2.
+    increased. And the previous element existed at index 1 will become 2.
         
         
      
