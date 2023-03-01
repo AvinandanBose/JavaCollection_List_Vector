@@ -376,6 +376,14 @@ that is initialized with the  elements of the collection c.
   
   ```
   
+   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList15.java"> 11. isEmpty ( ) .</li></h3>
+    
+ ```Syntax
+  
+  Definition: Returns true if this list contains no elements.
+  
+  ```
+  
   
   
 </ul>  
