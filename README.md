@@ -403,6 +403,16 @@ that is initialized with the  elements of the collection c.
   
   ```
   
+   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList17.java"> 13. listIterator ( ) .</li></h3>
+    
+  ```Syntax
+  
+  Definition: Returns a list iterator over the elements in this list 
+  (in proper sequence).
+   
+  
+  ```
+  
   
 </ul>  
 </ul>
