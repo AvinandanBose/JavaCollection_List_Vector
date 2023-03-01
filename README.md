@@ -528,6 +528,17 @@ that is initialized with the  elements of the collection c.
     
   ```
   
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList26.java"> 22. spliterator() .</li></h3>
+ 
+ 
+ ```Syntax
+  
+  Definition: Creates a late-binding and fail-fast ,
+  Spliterator over the elements in this list.
+
+    
+  ```
+  
 </ul>  
 </ul>
 
