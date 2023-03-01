@@ -148,10 +148,11 @@ implements Collection<E>
   <ul>
     <h3><li><i>1. Java ArrayList class can contain duplicate elements.</i></li></h3>
     <h3><li><i>2. Java ArrayList class maintains insertion order.</i></li></h3>
-    <h3><li><i>3.Java ArrayList class is non synchronized.</i></li></h3>
+    <h3><li><i>3.Java ArrayList class is non synchronized. <ins>Note:</ins> Vector class of Java is synchronized .</i></li></h3>
     <h3><li><i>4.Java ArrayList allows random access because the array works on an index basis.</i></li></h3>
     <h3><li><i>5.In ArrayList, manipulation is a little bit slower than the LinkedList in Java because a lot of shifting needs to occur if any element is removed from the array list.</i></li></h3>
-    <h3><li><i>We can not create an array list of the primitive types, such as int, float, char, etc. It is required to use the required wrapper class.That is it follows : <a href="https://github.com/AvinandanBose/JavaGeneric"> Generic</a> characteristics. </i></li></h3>
+    <h3><li><i>6.ArrayList in Java can be seen as a VECTOR in C++ STL library.</i></li></h3>
+    <h3><li><i>7.We can not create an array list of the primitive types, such as int, float, char, etc. It is required to use the required wrapper class.That is it follows : <a href="https://github.com/AvinandanBose/JavaGeneric"> Generic</a> characteristics. </i></li></h3>
     
    </ul>
   
