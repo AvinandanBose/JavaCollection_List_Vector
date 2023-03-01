@@ -232,6 +232,58 @@ that is initialized with the  elements of the collection c.
         
      
 ```
+
+ <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList5.java"> 2. add(Object o) .</li></h3>
+ 
+  ```Syntax
+  
+   Definition: It is used to append the specified element at the end of a list.
+   
+   Like:
+   
+   arrayList.add(1);
+   
+   [1]
+   
+   Then if we add: 
+   
+   arrayList.add(2);
+   
+   It will be:
+   
+   [1,2]
+   
+   i.e. It will add element from end.
+  
+  
+  ```
+ 
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList6.java"> 3. addAll ( Collection C ) .</li></h3>
+  
+  ```Syntax
+  
+   Definition: This method is used to append all the elements ,
+   from a specific collection to the end of the mentioned list, 
+   in such an order that the values are returned by the specified,
+   collection’s iterator.
+   
+  :If the ArrayList is Raw Type:
+  --------------------------------
+  
+  List  add any type of element dynamically,
+  Without type checking.
+  
+   :If the ArrayList is Generic Type:
+  --------------------------------
+  
+  List  add that specific type of element dynamically,
+  With type checking.
+  
+  
+  
+  
+  ```
+ 
   
   
 </ul>  
