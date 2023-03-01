@@ -25,6 +25,8 @@ public interface List<E> extends Collection<E>
   <h3> <li><i>6.LinkedList:</i> → It extends the <i>AbstractSequentialList</i> into a linked list, where each element knows where the next element is.</li></h3>
   <h3> <li><i>7.ArrayList:</i> → It implements a dynamic(resizable) array.</li></h3>
   
+ 
+  
   <h1></h1>
   <h1 align="Center"> AbstractList</h1>
   <ul>
@@ -155,6 +157,12 @@ implements Collection<E>
     <h3><li><i>7.We can not create an array list of the primitive types, such as int, float, char, etc. It is required to use the required wrapper class.That is it follows : <a href="https://github.com/AvinandanBose/JavaGeneric"> Generic</a> characteristics. </i></li></h3>
     
    </ul>
+   
+ 
+  
+  ![Screenshot (280)](https://user-images.githubusercontent.com/38869235/222077483-4b400d7e-b20d-4625-9eaa-c7c9a903d13c.png)
+
+  
    
    <h2></h2>
    <h2 align="Center"> Constructors Of ArrayList</h2>
