@@ -362,6 +362,17 @@ that is initialized with the  elements of the collection c.
  
   
   ```
+    
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList14.java"> 11.indexOf ( Object O) .</li></h3>
+    
+ ```Syntax
+  
+  Definition: The index the first occurrence of a specific element is either returned, 
+    or -1 in case the element is not in the list. That is it returns Integer which is 
+    an index .
+ 
+  
+  ```
   
   
   
