@@ -321,7 +321,7 @@ that is initialized with the  elements of the collection c.
   
   ```
      
-   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList10.java"> 7. clone() .</li></h3>
+   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList10.java"> 7. contains ( Object o ) .</li></h3>
   
   ```Syntax
   
