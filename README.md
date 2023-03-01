@@ -506,6 +506,7 @@ that is initialized with the  elements of the collection c.
     
   ```
   
+  
   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList24.java"> 20. set (int index, E element)  .</li></h3>
  
  
@@ -513,6 +514,16 @@ that is initialized with the  elements of the collection c.
   
   Definition: Sets or Replaces the element at the specified position ,
   in this list with the specified element or at a given index.
+
+    
+  ```
+  
+   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList25.java"> 21. size()  .</li></h3>
+ 
+ 
+ ```Syntax
+  
+  Definition: Returns the number of elements in this list.
 
     
   ```
