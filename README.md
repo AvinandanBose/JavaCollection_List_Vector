@@ -281,7 +281,7 @@ that is initialized with the  elements of the collection c.
   
   ```
   
- <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList6.java"> 4. addAll ( int index , Collection C ) .</li></h3>
+ <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList7.java"> 4. addAll ( int index , Collection C ) .</li></h3>
  
   ```Syntax
   
@@ -300,6 +300,14 @@ that is initialized with the  elements of the collection c.
   
   List  add that specific type of element dynamically,
   With type checking.
+ 
+  
+  ```
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList8.java"> 4. clear() .</li></h3>
+  
+  ```Syntax
+  
+   Definition: This method is used to remove all the elements from any list.
  
   
   ```
