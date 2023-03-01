@@ -460,6 +460,41 @@ that is initialized with the  elements of the collection c.
   
   ```
   
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList22.java"> 18. removeRange ( int fromIndex, int toIndex ) .</li></h3>
+ 
+  ```Syntax
+  
+  Definition: Removes from this list all of the elements whose index is between 
+  fromIndex, inclusive, and toIndex, exclusive.
+  
+  Note: To implement the above function we have to make the class a sub class of
+  ArrayList<Type> class , and then implement, otherwise not visible as it is 
+  a function having modifier protected, which let users not to use it directly.
+  
+  Eg:
+  
+  class ArrayList22 extends ArrayList<Integer>{
+  
+   public static void main(String[] args) {
+   
+  ArrayList22 arrayList = new ArrayList22();
+        arrayList.add(1);
+        arrayList.add(2);
+        arrayList.add(3);
+        arrayList.add(4);
+        arrayList.add(5);
+
+        System.out.println(arrayList);
+
+        arrayList.removeRange(1, 3);
+        
+        }
+  
+  }
+   
+  
+  ```
+  
   
 </ul>  
 </ul>
