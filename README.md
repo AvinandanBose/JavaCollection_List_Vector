@@ -445,16 +445,17 @@ that is initialized with the  elements of the collection c.
  
   ```Syntax
   
-  Definition: Removes from this list all of its elements that are contained in the specified collection.
+  Definition: Removes from this list all of its elements ,
+  that are contained in the specified collection.
    
   
   ```
   
-   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList20.java"> 16. removeAll ( Collection c ) .</li></h3>
+   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList21.java"> 17. removeIf ( Predicate filter ) .</li></h3>
  
   ```Syntax
   
-  Definition: Removes from this list all of its elements that are contained in the specified collection.
+  Definition: Removes all of the elements of this collection that satisfy the given predicate.
    
   
   ```
