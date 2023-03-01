@@ -539,6 +539,18 @@ that is initialized with the  elements of the collection c.
     
   ```
   
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList27.java"> 23. subListt(int fromIndex, int toIndex) .</li></h3>
+ 
+ 
+ ```Syntax
+  
+  Definition: Returns a view of the portion of this list,
+  between the specified fromIndex, inclusive, and toIndex, exclusive. 
+  (If fromIndex and toIndex are equal, the returned list is empty.)
+  
+
+  ```
+  
 </ul>  
 </ul>
 
