@@ -198,7 +198,16 @@ that is initialized with the  elements of the collection c.
 ```
    
    </ul>
+   
+   
+ <h2></h2>
+<h2 align="Center"> Methods of ArrayList</h2>
+
+
+<ul>
   
+  
+</ul>  
 </ul>
 
 
