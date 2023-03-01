@@ -335,8 +335,9 @@ that is initialized with the  elements of the collection c.
   
   ```Syntax
   
-   Definition: Increases the capacity of this ArrayList instance, if necessary, 
-  to ensure that it can hold at least the number of elements specified by the minimum capacity argument.
+  Definition: Increases the capacity of this ArrayList instance, if necessary, 
+  to ensure that it can hold at least the number of elements specified by the
+  minimum capacity argument.
  
   
   ```
