@@ -495,6 +495,16 @@ that is initialized with the  elements of the collection c.
   
   ```
   
+ <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList23.java"> 19. retainAll ( Collection c )  .</li></h3>
+ 
+ 
+  ```Syntax
+  
+  Definition: Retains only the elements in this list that are contained in the 
+  specified collection. One can tell it gives the intersection part.
+
+    
+  ```
   
 </ul>  
 </ul>
