@@ -172,6 +172,8 @@ implements Collection<E>
    <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList1.java"> 1. ArrayList().</li></h3>
      
 ```Syntax
+
+Definition: The above constructor builds an empty array list.
      
      
  ```
@@ -179,13 +181,18 @@ implements Collection<E>
    <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList2.java"> 2. ArrayList( Collection < ? extends E > c ) .</li></h3>
      
 ```Syntax
-     
+ 
+Definition: This constructor builds an array list, that is initialized with the  elements of the collection c.
      
 ```
    <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList3.java"> 3. ArrayList( int capacity ) .</li></h3>
      
 ```Syntax
-     
+ 
+ Definition: This constructor builds an array list that has the initial capacity. 
+ 
+ Capacity: The capacity is the size of the underlying array that is used to store the elements . 
+ The capacity grows automatically as elements are added to an array list.
      
 ```
    
