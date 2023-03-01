@@ -205,6 +205,13 @@ that is initialized with the  elements of the collection c.
 
 
 <ul>
+ <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList4.java"> 1. add( int index, Object element ) .</li></h3>
+ 
+ ```Syntax
+ 
+ Definition: This method is used to insert a specific element at a specific position index in a list.
+     
+```
   
   
 </ul>  
