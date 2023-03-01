@@ -279,11 +279,30 @@ that is initialized with the  elements of the collection c.
   List  add that specific type of element dynamically,
   With type checking.
   
+  ```
   
+ <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList6.java"> 4. addAll ( int index , Collection C ) .</li></h3>
+ 
+  ```Syntax
   
+   Definition: Used to insert all of the elements ,
+   starting at the specified position from a ,
+   specific collection into the mentioned list.
+   
+   :If the ArrayList is Raw Type:
+  --------------------------------
+  
+  List  add any type of element dynamically,
+  Without type checking.
+  
+   :If the ArrayList is Generic Type:
+  --------------------------------
+  
+  List  add that specific type of element dynamically,
+  With type checking.
+ 
   
   ```
- 
   
   
 </ul>  
