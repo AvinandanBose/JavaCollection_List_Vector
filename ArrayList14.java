@@ -10,6 +10,9 @@ public class ArrayList14 {
 
         int i = arrayList.indexOf("World");
         System.out.println(i);
+
+        int j = arrayList.indexOf("world");
+        System.out.println(j);
     }
     
 }
