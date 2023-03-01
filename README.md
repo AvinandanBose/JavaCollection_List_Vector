@@ -413,6 +413,16 @@ that is initialized with the  elements of the collection c.
   
   ```
   
+   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList18.java"> 14. listIterator( int index) .</li></h3>
+   
+ ```Syntax
+  
+  Definition: Returns a list iterator over the elements in this list (in proper sequence), 
+  starting at the specified position in the list.
+   
+  
+  ```
+  
   
 </ul>  
 </ul>
