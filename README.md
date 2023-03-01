@@ -211,6 +211,22 @@ that is initialized with the  elements of the collection c.
  
  Definition: This method is used to insert a specific element,
   at a specific position index in a list.
+  
+  Note: 
+  
+  In the above example :
+  
+   for (int i = 0; i < arrayList.size(); i++) {
+            if(i==1){
+                arrayList.add(i,"world");
+            }
+            
+        }
+        
+    When we get the index = 1 , and it will add 
+    world at index : 1 .
+        
+        
      
 ```
   
