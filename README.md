@@ -352,6 +352,16 @@ that is initialized with the  elements of the collection c.
  
   
   ```
+    
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList13.java"> 10. get ( int index ) .</li></h3>
+     
+  
+  ```Syntax
+  
+  Definition: Returns the element at the specified position in this list.
+ 
+  
+  ```
   
   
   
