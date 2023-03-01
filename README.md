@@ -303,7 +303,7 @@ that is initialized with the  elements of the collection c.
  
   
   ```
-  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList8.java"> 4. clear() .</li></h3>
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList8.java"> 5. clear() .</li></h3>
   
   ```Syntax
   
@@ -312,11 +312,20 @@ that is initialized with the  elements of the collection c.
   
   ```
   
-   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList9.java"> 5. clone() .</li></h3>
+   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList9.java"> 6. clone() .</li></h3>
   
   ```Syntax
   
    Definition: This method is used to return a shallow copy of an ArrayList.
+ 
+  
+  ```
+     
+   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList10.java"> 7. clone() .</li></h3>
+  
+  ```Syntax
+  
+   Definition: Returns (Boolean) true if this list contains the specified element.
  
   
   ```
