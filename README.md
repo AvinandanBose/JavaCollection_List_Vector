@@ -312,6 +312,15 @@ that is initialized with the  elements of the collection c.
   
   ```
   
+   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList9.java"> 5. clone() .</li></h3>
+  
+  ```Syntax
+  
+   Definition: This method is used to return a shallow copy of an ArrayList.
+ 
+  
+  ```
+  
   
 </ul>  
 </ul>
