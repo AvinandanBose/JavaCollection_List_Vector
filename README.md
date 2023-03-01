@@ -170,8 +170,24 @@ implements Collection<E>
    <ul>
    
    <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList1.java"> 1. ArrayList().</li></h3>
+     
+```Syntax
+     
+     
+ ```
+     
    <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList2.java"> 2. ArrayList( Collection < ? extends E > c ) .</li></h3>
+     
+```Syntax
+     
+     
+```
    <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList3.java"> 3. ArrayList( int capacity ) .</li></h3>
+     
+```Syntax
+     
+     
+```
    
    </ul>
   
