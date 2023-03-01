@@ -550,6 +550,18 @@ that is initialized with the  elements of the collection c.
   
 
   ```
+    
+   
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList28.java"> 24. Object[] toArray() .</li></h3>
+ 
+ 
+ ```Syntax
+  
+  Definition: Returns an array containing all of the elements,
+  in this list in proper sequence (from first to last element).
+  
+
+  ```
   
 </ul>  
 </ul>
