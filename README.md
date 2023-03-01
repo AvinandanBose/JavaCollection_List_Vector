@@ -85,6 +85,66 @@ implements Collection<E>
    
  <h1></h1>
 <h1 align="Center">Array List</h1>
+    
+<ul>
+  
+ <h3>The ArrayList class is an array class that can grow or shrink at runtime . Note that arrays of this class must hold objects, not just simple data types.The ArrayList class extends AbstractList and implements the List interface.ArrayList is a generic class that has this declaration:</h3>
+  
+```mermaid
+  
+  sequenceDiagram
+    
+  
+java.util.Collection->>java.util.AbstractCollection:implements
+java.lang.Object->>java.util.AbstractCollection:extends
+java.util.AbstractCollection->>java.util.AbstractList:extends 
+java.util.AbstractList->>java.util.List:implements
+java.util.ArrayList->>java.util.AbstractList:extends 
+java.util.ArrayList->>java.util.List:implements
+java.util.ArrayList->>java.lang.Cloneable:implements
+java.util.ArrayList->>java.io.Serializable:implements
+java.util.ArrayList->>java.util.RandomAccess:implements
+  
+```
+  
+<h3 align="Center">
+  
+```
+  
+public class ArrayList<E>
+extends AbstractList<E>
+implements List<E>, RandomAccess, Cloneable, Serializable
+  
+  
+  //Others
+ ---------------------------------------
+public abstract class AbstractList<E>
+extends AbstractCollection<E>
+implements List<E>
+    
+public abstract class AbstractCollection<E>
+extends Object
+implements Collection<E>
+  
+--------------------------------
+  
+  Class/Interface      Package
+  --------------       ----------
+  ArrayList             java.util
+  AbstractList          java.util
+  List<E>               java.util
+  RandomAccess          java.util
+  Cloneable             java.lang
+ Serializable          java.io
+  AbstractCollection    java.util
+  Object                java.lang
+  Collection            java.util
+  
+  
+```
+</h3>
+  
+</ul>
 
 
 
