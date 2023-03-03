@@ -780,7 +780,7 @@ specified collection. One can tell it gives the intersection part.</td>
 <h1 align="Center">Representation of List as Multi Dimensional Array </h1>
 
 <ul>
-
+<h3> We know that arr[ ] [ ] => 1st [ ] indicates rows and 2nd [ ] indicates columns .As it increases on rows and creates 2D i.e. Two dimensional whicb means it will have length ( height) and breadth ( width ). Single row means 1D i.e. one dimensional having length only. Where as in 3D - Three Dimensional Array we have row , columns and no .  of blocks that contains columns and rows. We can create similar MultiDimensional Array in List through a technique called : <i> Nesting List</i> </h3> 
 
 
 </ul>
