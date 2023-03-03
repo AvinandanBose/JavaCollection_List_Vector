@@ -948,13 +948,158 @@ for(int i = 0; i < list1.size(); i++){
  ```
   
 </ul>
+  
+  
     
     
+</ul>
+  
+<h2 align ="Center"> Optimizing the Nested Lists</h2>
+  
+<ul>
+  <h3> Making numerous Lists again and again like above examples makes code bigger and with huge line of codes. To make it small we can:</h3>
+  <ul>
+  
+  <h3>1) Apply Anonymous Nested Inner Class. </h3>
+  
+ <ul>
+   
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ListMultiArray3.java">1.a) Applying Anonymous Nested Inner Class to add element in a 2 Dimensional Structure </a></h3> 
+   
+```Syntax
+   
+   Example:
+   
+   List<List<Integer>> list1 = new ArrayList<>();
+
+        list1.add(new ArrayList<>() {
+            {
+                add(1);
+                add(2);
+                add(3);
+            }
+        });
+
+        list1.add(new ArrayList<>() {
+            {
+                add(4);
+                add(5);
+                add(6);
+            }
+        });
+
+   
+   
+ ```
+   
+<h3> <a href= "https://github.com/AvinandanBose/JavaCollection_List/blob/main/ListMultiArray4.java">1.b) Applying Anonymous Nested Inner Class to add element in a 3 Dimensional Structure </a></h3>  
+   
+   ```Syntax
+   
+   Example:
+   
+ List<List<List<Integer>>> list1 = new ArrayList<>();
+
+        list1.add(new ArrayList<>() {
+            {
+                add(new ArrayList<>() {
+                    {
+                        add(1);
+                        add(2);
+                        add(3);
+                    }
+                });
+                add(new ArrayList<>() {
+                    {
+                        add(4);
+                        add(5);
+                        add(6);
+                    }
+                });
+            }
+        });
+
+        list1.add(new ArrayList<>() {
+            {
+                add(new ArrayList<>() {
+                    {
+                        add(7);
+                        add(8);
+                        add(9);
+                    }
+                });
+                add(new ArrayList<>() {
+                    {
+                        add(10);
+                        add(11);
+                        add(12);
+                    }
+                });
+            }
+        });
+   
+   
+ ```
+   
+   
+ </ul>
+ <h3> 2) Apply Arrays.asList(varargs) .</h3>
+   
+ <ul>
+ <h3> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ListMultiArray5.java">2.a) Applying Arrays.asList(varargs) to add element in a 2 Dimensional Structure </a></h3> 
+   
+```Syntax
+   
+  Example:
+   
+ List<List<Integer>> list = new ArrayList<>();  
+   
+ list.add(new ArrayList<>(Arrays.asList(1,2,3)) );
+ list.add(new ArrayList<>(Arrays.asList(4,5,6)) );
+   
+   
+ ```
+   
+ <h3> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ListMultiArray6.java">2.b) Applying Arrays.asList(varargs) to add element in a 3 Dimensional Structure </a></h3> 
+   
+```Syntax
+   
+  Example:
+   
+ List<List<List<Integer>>> list = new ArrayList<>();   
+        
+        list.add(new ArrayList<>(Arrays.asList(
+            new ArrayList<>(Arrays.asList(1,2,3)),
+            new ArrayList<>(Arrays.asList(4,5,6))
+        )));
+        list.add(new ArrayList<>(Arrays.asList(
+            new ArrayList<>(Arrays.asList(7,8,9)),
+            new ArrayList<>(Arrays.asList(10,11,12))
+        )));
+   
+   
+ ```
+   
+ <h3><i><ins>Note:</ins> Arrays is a Class of java's util package and asList() is a function which takes an array of element and convert them to list structure. This have more less line of code and is the most optimised way to use from all of the above examples </i></h3>
+     
+     
+ </ul>
+    
+  </ul>
+  
 </ul>
   
   
 
 
+</ul>
+   
+<h1></h1>
+<h1 align="Center">Abstract Sequential List</h1>
+   
+<ul>
+  
+  
 </ul>
 
 
