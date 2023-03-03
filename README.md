@@ -869,7 +869,87 @@ for(int i = 0; i < list1.size(); i++){
 
 
 </ul>
+  
 
+  
+
+
+</ul>
+  
+  <h2> 3 Dimensional</h2>
+  
+  <ul>
+    
+ <h3>Consider an example :</h3>
+<ul>
+<h3><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ListMultiArray2.java"> Creating 3 DImensional List - Eg</h3>
+  
+ ```Syntax
+  
+  Like Above:
+  
+ List<List<List<Integer>>> list1 = new ArrayList<>();
+  
+ List<List<Integer>> list2 = new ArrayList<>();
+  
+  List<Integer> list3 = new ArrayList<>();
+  
+  list3.add(1);
+  list3.add(2);
+  list3.add(3);
+        
+  list2.add(list3);
+  
+  List<Integer> list4 = new ArrayList<>();
+  
+  list4.add(4);
+  list4.add(5);
+  list4.add(6);
+  
+  list2.add(list4);
+  
+  list1.add(list2);
+  
+ System.out.println(list1);
+
+  [[[1, 2, 3], [4, 5, 6]]]
+  
+  Hence : 
+  
+  list1.get(0).get(0).get(0) = 1
+  
+  list1.get(0).get(0).get(1) = 2
+  
+  list1.get(0).get(0).get(2) = 3
+  
+  ....etc.
+  
+  Just Like :
+  
+  arr[0][0][0] =1
+  
+  arr[0][0][1] =2
+  
+  arr[0][0][2] =3
+  
+  ...etc.
+  
+  i.e. 
+  0th Block , row=0,column =0 => 1
+  0th Block , row=0,column =1 => 2
+  0th Block , row=0,column =2 => 3
+  
+    ...etc.
+  
+  Hence Nested Lists can create ,
+  Multi-Dimensional like arrays . 
+  
+  
+ ```
+  
+</ul>
+    
+    
 </ul>
   
   
