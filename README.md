@@ -771,8 +771,18 @@ specified collection. One can tell it gives the intersection part.</td>
 
 </Table>
   
-</ul>  
 </ul>
 
+
+</ul>
+
+<h1></h1>
+<h1 align="Center">Representation of List as Multi Dimensional Array </h1>
+
+<ul>
+
+
+
+</ul>
 
 
