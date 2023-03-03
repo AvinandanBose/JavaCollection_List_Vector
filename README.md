@@ -589,6 +589,188 @@ that is initialized with the  elements of the collection c.
 
   ```
   
+  <Table>
+
+<tr>
+<th> Methods </th>
+<th> Definition </th>
+</tr>
+
+<tr>
+
+<td>1.add( int index, Object element ) </td>
+
+<td>Definition: This method is used to insert a specific element,
+ at a specific position index in a list.</td>
+
+</tr>
+
+<tr>
+<td>2. add(Object o) </td>
+<td>Definition: It is used to append the specified element at the end of a list.</td>
+</tr>
+
+<tr>
+<td>3.addAll ( Collection C ) </td>
+<td>Definition: This method is used to append all the elements ,
+ from a specific collection to the end of the mentioned list, 
+ in such an order that the values are returned by the specified,
+ collection’s iterator.</td>
+</tr>
+
+<tr>
+<td>4.addAll ( int index , Collection C )  </td>
+
+<td>Definition: Used to insert all of the elements ,
+ starting at the specified position from a ,
+ specific collection into the mentioned list.</td>
+
+</tr>
+
+<tr>
+<td>5.clear() </td>
+
+<td>Definition: This method is used to remove all the elements from any list.</td>
+
+</tr>
+
+<tr>
+<td>6. clone() </td>
+<td>Definition: This method is used to return a shallow copy of an ArrayList.</td>
+</tr>
+
+<tr>
+<td>7. contains ( Object o ) </td>
+<td> Definition: Returns (Boolean) true if this list contains the specified element.</td>
+</tr>
+
+<tr>
+<td>8. ensureCapacity ( int minCapacity ) </td>
+<td>Definition: Increases the capacity of this ArrayList instance, if necessary, 
+to ensure that it can hold at least the number of elements specified by the
+minimum capacity argument.</td>
+</tr>
+
+<tr>
+<td>9. forEach(Consumer < ? super E > action)  </td>
+<td>Definition: Performs the given action for each element of the Iterable,
+until all elements have been processed or the action throws an exception.</td>
+</tr>
+
+<tr>
+<td>10. get ( int index ) </td>
+<td>Definition: Returns the element at the specified position in this list.</td>
+</tr>
+
+<tr>
+<td>11. indexOf ( Object O) </td>
+<td>Definition: The index the first occurrence of a specific element is either returned, 
+   or -1 in case the element is not in the list. That is it returns Integer which is 
+   an index .</td>
+</tr>
+
+<tr>
+<td>12. isEmpty ( ) </td>
+<td>Definition: Returns true if this list contains no elements.</td>
+</tr>
+
+<tr>
+<td>13. lastIndexOf ( Object O )</td> 
+<td>Definition: The index of the last occurrence of a specific element ,
+  is either returned or -1 in case the element is not in the list.</td>
+</tr>
+
+<tr>
+<td>14. listIterator ( ) </td>
+<td>Definition: Returns a list iterator over the elements in this list (in proper sequence), 
+ starting at the specified position in the list.</td>
+</tr>
+
+<tr>
+<td>15. remove ( int index )</td> 
+<td>Definition: Removes the element at the specified position in this list.</td>
+</tr>
+
+<tr>
+<td>16. removeAll ( Collection c )</td> 
+<td>Definition: Removes from this list all of its elements ,
+that are contained in the specified collection.</td>
+</tr>
+
+<tr>
+<td>17. removeIf ( Predicate filter ) </td>
+<td>Definition: Removes all of the elements of this collection that satisfy the given predicate.</td>
+</tr>
+
+<tr>
+<td>18. removeRange ( int fromIndex, int toIndex ) </td>
+<td>Definition: Removes from this list all of the elements whose index is between 
+fromIndex, inclusive, and toIndex, exclusive.</td>
+</tr>
+
+
+<tr>
+<td>19. retainAll ( Collection c )  </td>
+<td>Definition: Retains only the elements in this list that are contained in the 
+specified collection. One can tell it gives the intersection part.</td>
+</tr>
+
+<tr>
+<td>20. set (int index, E element)   </td>
+<td>Definition: Sets or Replaces the element at the specified position ,
+ in this list with the specified element or at a given index.</td>
+</tr>
+
+
+<tr>
+<td>21. size()    </td>
+<td>Definition: Returns the number of elements in this list.</td>
+</tr>
+
+
+<tr>
+<td>22. spliterator()     </td>
+<td>Definition:Creates a late-binding and fail-fast ,
+ Spliterator over the elements in this list.</td>
+</tr>
+
+
+<tr>
+<td>23. subList(int fromIndex, int toIndex)      </td>
+<td>Definition:Returns a view of the portion of this list,
+ between the specified fromIndex, inclusive, and toIndex, exclusive. 
+ (If fromIndex and toIndex are equal, the returned list is empty.).</td>
+</tr>
+
+
+<tr>
+<td>24. Object[] toArray()      </td>
+<td>Definition: Returns an array containing all of the elements,
+ in this list in proper sequence (from first to last element).</td>
+</tr>
+
+<tr>
+<td>25. toArray( Object[] O)      </td>
+<td>Definition: It is also used to return an array containing all of the elements,
+   in this list in the correct order.</td>
+</tr>
+
+<tr>
+<td>26. sort( Comparator < ? super E > c )       </td>
+<td>Definition: Sorts this list according to the order ,
+ induced by the specified Comparator. </td>
+</tr>
+
+<tr>
+<td>27. trimToSize()        </td>
+<td>Definition: Trims the capacity of this ArrayList instance,
+ to be the list's current size. An application can use this,
+ operation to minimize the storage of an ArrayList instance. </td>
+</tr>
+
+
+</Table>
+  
 </ul>  
 </ul>
 
