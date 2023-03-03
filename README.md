@@ -780,8 +780,97 @@ specified collection. One can tell it gives the intersection part.</td>
 <h1 align="Center">Representation of List as Multi Dimensional Array </h1>
 
 <ul>
-<h3> We know that arr[ ] [ ] => 1st [ ] indicates rows and 2nd [ ] indicates columns .As it increases on rows and creates 2D i.e. Two dimensional whicb means it will have length ( height) and breadth ( width ). Single row means 1D i.e. one dimensional having length only. Where as in 3D - Three Dimensional Array we have row , columns and no .  of blocks that contains columns and rows. We can create similar MultiDimensional Array in List through a technique called : <i> Nesting List</i> . </h3> 
+<h3> We know that arr[ ] [ ] => 1st [ ] indicates rows and 2nd [ ] indicates columns .As it increases on rows and creates 2D i.e. Two dimensional whicb means it will have length ( height) and breadth ( width ). Single row means 1D i.e. one dimensional having length only. Where as in 3D - Three Dimensional Array we have row , columns and no .  of blocks that contains columns and rows. We can create similar MultiDimensional Array in List through a technique called : <i> Nesting List</i> . Which we can also call as <i>Multidimensional Collections </i> or <i>Nested Collections </i>.</h3> 
   
+<h2> 2 Dimensional</h2>
+
+<ul>
+<h3>Consider an example :</h3>
+<ul>
+<h3><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ListMultiArray1.java"> Creating 2 DImensional List - Eg</h3>
+
+```Syntax
+
+List<List<Integer>> list1 = new ArrayList<>();
+
+Which means no. of lists can be nested into a single list. 
+
+
+Say,
+
+List<Integer> list2 = new ArrayList<>();
+list2.add(1);
+list2.add(2);
+list2.add(3);
+
+And,
+
+list1.add(list2);
+
+The ouput we will get is :
+
+[[1,2,3]]
+
+It can be in terms of rows and columns:
+
+rows = 0 , and number of columns = 3
+
+Which can be accessed by:
+
+list1.get(0).get(0)
+list1.get(0).get(1)
+list1.get(0).get(2)
+
+Again: 
+
+List<Integer> list3 = new ArrayList<>();
+list3.add(4);
+list3.add(5);
+list3.add(6);
+
+list1.add(list2);
+
+The ouput we will get is :
+
+[[1,2,3],[4,5,6]]
+
+It can be in terms of rows and columns:
+
+rows = 0 , and number of columns = 3
+rows = 1 , and number of columns = 3
+
+And row1 can be accessed by:
+
+list1.get(1).get(0)
+list1.get(1).get(1)
+list1.get(1).get(2)
+
+
+Now to iterate over each index :
+
+Either our approach will be for each loop:
+
+ for (List<Integer> list : list1) {
+            for (Integer integer : list) {
+                System.out.println(integer);
+            }
+        }
+        
+        
+:Or by simple for loop:
+
+
+for(int i = 0; i < list1.size(); i++){
+            for(int j = 0; j < list1.get(i).size(); j++){
+                System.out.println(list1.get(i).get(j));
+            }
+        }
+```
+
+
+</ul>
+
+</ul>
   
   
 
