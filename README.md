@@ -1080,7 +1080,7 @@ for(int i = 0; i < list1.size(); i++){
    
  ```
    
- <h3><i><ins>Note:</ins> Arrays is a Class of java's util package and asList() is a function which takes an array of element and convert them to list structure. This have more less line of code and is the most optimised way to use from all of the above examples </i></h3>
+ <h3><i><ins>Note:</ins> Arrays is a Class of java's util package and asList() is a function which takes an array of element and convert them to list structure. This have  less line of code and is the most optimised way to use from all of the above examples. </i></h3>
      
      
  </ul>
