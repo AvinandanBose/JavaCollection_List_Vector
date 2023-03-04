@@ -1096,10 +1096,69 @@ for(int i = 0; i < list1.size(); i++){
    
 <h1></h1>
 <h1 align="Center">Abstract Sequential List</h1>
+
+```mermaid
+  
+  sequenceDiagram
+    
+  
+java.util.Collection->>java.util.AbstractCollection:implements
+java.lang.Object->>java.util.AbstractCollection:extends
+java.util.AbstractCollection->>java.util.AbstractList:extends 
+java.util.AbstractList->>java.util.List:implements
+java.util.AbstractSequentialList->>java.util.AbstractList:extends 
+java.util.LinkedList->>java.util.AbstractSequentialList:extends
+  
+```
+
+<h3 align="Center">
+
+```
+
+public abstract class AbstractSequentialList<E>
+extends AbstractList<E>
+
+public class LinkedList<E>
+extends AbstractSequentialList<E>
+
+//Others
+--------------------------------------------
+public abstract class AbstractList<E>
+extends AbstractCollection<E>
+implements List<E>
+    
+public abstract class AbstractCollection<E>
+extends Object
+implements Collection<E>
+
+------------------------------
+
+```
+
+</h3>
    
 <ul>
-  
-  
+
+<h3><li>1. Abstract SequentialList is an abstract class in Java Collection .</li></h3>
+<h3><li>2. It is a part of the Java Collection Framework .</li></h3>
+<h3><li>3. It extends Abstract List class .</li></h3>
+<h3><li>4. Now as Abstract List extends Abstract Collection and implements List, Abstract SequentialList inherits Abstract Collection class and List interface .</li></h3>
+
+<h3><li>5.Also as Abstract Collection extends Object class and implements Collection interface , hence Abstract List class inherits them too.</li></h3>
+
+<h3><li>6.This class provides a skeletal implementation of the List interface to minimize the effort required to implement this interface backed by a “sequential access” data store (such as a linked list).</li></h3>
+
+
+<h3><li>7.As Abstract List is an abstract class , it must be implemented by Linked List class which implements it.</li></h3>
+
+<h3><i><ins>Example of  Abstract Sequential List</ins></i></h3>
+<ul>
+ <h3><li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/AbstractSequential1.java">Abstract Sequential List-Example</li></h3>
 </ul>
+
+</ul>
+
+<h1></h1>
+<h1 align="Center">Linked List</h1>
 
 
