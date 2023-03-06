@@ -376,14 +376,14 @@ that is initialized with the  elements of the collection c.
   
   ```
   
-   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList15.java"> 11. isEmpty ( ) .</li></h3>
+   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList15.java"> 12. isEmpty ( ) .</li></h3>
     
  ```Syntax
   
   Definition: Returns true if this list contains no elements.
   
   ```
-  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList16.java"> 12. lastIndexOf ( Object O ) .</li></h3>
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList16.java"> 13. lastIndexOf ( Object O ) .</li></h3>
     
   ```Syntax
   
@@ -402,8 +402,18 @@ that is initialized with the  elements of the collection c.
     arrayList.lastIndexOf("Hello") = 3
   
   ```
+    
+ <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList33.java"> 14. Iterator ( ) .</li></h3>
+    
+  ```Syntax
   
-   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList17.java"> 13. listIterator ( ) .</li></h3>
+  Definition: Returns an iterator over the elements in this list ,
+  in proper sequence.
+   
+  
+  ```
+  
+ <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList17.java"> 15. listIterator ( ) .</li></h3>
     
   ```Syntax
   
@@ -413,7 +423,7 @@ that is initialized with the  elements of the collection c.
   
   ```
   
-   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList18.java"> 14. listIterator( int index) .</li></h3>
+ <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList18.java"> 16. listIterator( int index) .</li></h3>
    
  ```Syntax
   
@@ -423,7 +433,7 @@ that is initialized with the  elements of the collection c.
   
   ```
   
-   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList32.java"> 15. remove ( Object o ) .</li></h3>
+   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList32.java"> 17. remove ( Object o ) .</li></h3>
    
  ```Syntax
   
@@ -439,7 +449,7 @@ that is initialized with the  elements of the collection c.
   
   ```
   
- <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList19.java"> 16. remove ( int index ) .</li></h3>
+ <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList19.java"> 18. remove ( int index ) .</li></h3>
    
  ```Syntax
   
@@ -449,7 +459,7 @@ that is initialized with the  elements of the collection c.
   ```
   
   
- <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList20.java"> 17. removeAll ( Collection c ) .</li></h3>
+ <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList20.java"> 19. removeAll ( Collection c ) .</li></h3>
  
   ```Syntax
   
@@ -459,7 +469,7 @@ that is initialized with the  elements of the collection c.
   
   ```
   
-   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList21.java"> 18. removeIf ( Predicate filter ) .</li></h3>
+   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList21.java"> 20. removeIf ( Predicate filter ) .</li></h3>
  
   ```Syntax
   
@@ -468,7 +478,7 @@ that is initialized with the  elements of the collection c.
   
   ```
   
-  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList22.java"> 19. removeRange ( int fromIndex, int toIndex ) .</li></h3>
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList22.java"> 21. removeRange ( int fromIndex, int toIndex ) .</li></h3>
  
   ```Syntax
   
@@ -503,7 +513,7 @@ that is initialized with the  elements of the collection c.
   
   ```
   
- <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList23.java"> 20. retainAll ( Collection c )  .</li></h3>
+ <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList23.java"> 22. retainAll ( Collection c )  .</li></h3>
  
  
   ```Syntax
@@ -515,7 +525,7 @@ that is initialized with the  elements of the collection c.
   ```
   
   
-  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList24.java"> 21. set (int index, E element)  .</li></h3>
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList24.java"> 23. set (int index, E element)  .</li></h3>
  
  
  ```Syntax
@@ -526,7 +536,7 @@ that is initialized with the  elements of the collection c.
     
   ```
   
-   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList25.java"> 22. size()  .</li></h3>
+   <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList25.java"> 24. size()  .</li></h3>
  
  
  ```Syntax
@@ -536,7 +546,7 @@ that is initialized with the  elements of the collection c.
     
   ```
   
-  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList26.java"> 23. spliterator() .</li></h3>
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList26.java"> 25. spliterator() .</li></h3>
  
  
  ```Syntax
@@ -547,7 +557,7 @@ that is initialized with the  elements of the collection c.
     
   ```
   
-  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList27.java"> 24. subList(int fromIndex, int toIndex) .</li></h3>
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList27.java"> 26. subList(int fromIndex, int toIndex) .</li></h3>
  
  
  ```Syntax
@@ -575,7 +585,7 @@ that is initialized with the  elements of the collection c.
   ```
     
    
-  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList28.java"> 25. Object[] toArray() .</li></h3>
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList28.java"> 27. Object[] toArray() .</li></h3>
  
  
  ```Syntax
@@ -586,7 +596,7 @@ that is initialized with the  elements of the collection c.
 
   ```
     
-  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList29.java"> 26. toArray( Object[] O) .</li></h3>
+  <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList29.java"> 28. toArray( Object[] O) .</li></h3>
  
  
  ```Syntax
@@ -597,7 +607,7 @@ that is initialized with the  elements of the collection c.
 
   ```
   
- <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList30.java"> 27. sort( Comparator < ? super E > c ) .</li></h3>
+ <h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList30.java"> 29. sort( Comparator < ? super E > c ) .</li></h3>
  
  
  ```Syntax
@@ -608,7 +618,7 @@ that is initialized with the  elements of the collection c.
 
   ```
   
-<h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList31.java"> 28. trimToSize() .</li></h3>
+<h3><li> <a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/ArrayList31.java"> 30. trimToSize() .</li></h3>
  
  
  ```Syntax
@@ -620,7 +630,7 @@ that is initialized with the  elements of the collection c.
 
   ```
   
-  <Table>
+<Table>
 
 <tr>
 <th> Methods </th>
@@ -711,14 +721,25 @@ until all elements have been processed or the action throws an exception.</td>
   is either returned or -1 in case the element is not in the list.</td>
 </tr>
 
-<tr>
-<td>14. listIterator ( ) </td>
-<td>Definition: Returns a list iterator over the elements in this list (in proper sequence), 
- starting at the specified position in the list.</td>
+<td>14. Iterator ( )</td> 
+<td>Definition: Returns an iterator over the elements in this list ,
+  in proper sequence.</td>
 </tr>
 
 <tr>
-<td>15. remove ( Object o )</td> 
+<td>15. listIterator ( ) </td>
+<td>Definition: Returns a list iterator over the elements in this list 
+  (in proper sequence).</td>
+</tr>
+
+<tr>
+<td>16. listIterator( int index) </td>
+<td>Definition: Returns a list iterator over the elements in this list (in proper sequence), 
+  starting at the specified position in the list.</td>
+</tr>
+
+<tr>
+<td>17. remove ( Object o )</td> 
 <td>Definition: Removes the first occurrence of the specified element from this list, 
   if it is present. If the list does not contain the element, it is unchanged. 
   More formally, removes the element with the lowest index i 
@@ -728,56 +749,56 @@ until all elements have been processed or the action throws an exception.</td>
 </tr>
 
 <tr>
-<td>16. remove ( int index )</td> 
+<td>18. remove ( int index )</td> 
 <td>Definition: Removes the element at the specified position in this list.</td>
 </tr>
 
 <tr>
-<td>17. removeAll ( Collection c )</td> 
+<td>19. removeAll ( Collection c )</td> 
 <td>Definition: Removes from this list all of its elements ,
 that are contained in the specified collection.</td>
 </tr>
 
 <tr>
-<td>18. removeIf ( Predicate filter ) </td>
+<td>20. removeIf ( Predicate filter ) </td>
 <td>Definition: Removes all of the elements of this collection that satisfy the given predicate.</td>
 </tr>
 
 <tr>
-<td>19. removeRange ( int fromIndex, int toIndex ) </td>
+<td>21. removeRange ( int fromIndex, int toIndex ) </td>
 <td>Definition: Removes from this list all of the elements whose index is between 
 fromIndex, inclusive, and toIndex, exclusive.</td>
 </tr>
 
 
 <tr>
-<td>20. retainAll ( Collection c )  </td>
+<td>22. retainAll ( Collection c )  </td>
 <td>Definition: Retains only the elements in this list that are contained in the 
 specified collection. One can tell it gives the intersection part.</td>
 </tr>
 
 <tr>
-<td>21. set (int index, E element)   </td>
+<td>23. set (int index, E element)   </td>
 <td>Definition: Sets or Replaces the element at the specified position ,
  in this list with the specified element or at a given index.</td>
 </tr>
 
 
 <tr>
-<td>22. size()    </td>
+<td>24. size()    </td>
 <td>Definition: Returns the number of elements in this list.</td>
 </tr>
 
 
 <tr>
-<td>23. spliterator()     </td>
+<td>25. spliterator()     </td>
 <td>Definition:Creates a late-binding and fail-fast ,
  Spliterator over the elements in this list.</td>
 </tr>
 
 
 <tr>
-<td>24. subList(int fromIndex, int toIndex)      </td>
+<td>26. subList(int fromIndex, int toIndex)      </td>
 <td>Definition:Returns a view of the portion of this list,
  between the specified fromIndex, inclusive, and toIndex, exclusive. 
  (If fromIndex and toIndex are equal, the returned list is empty.).</td>
@@ -785,25 +806,25 @@ specified collection. One can tell it gives the intersection part.</td>
 
 
 <tr>
-<td>25. Object[] toArray()      </td>
+<td>27. Object[] toArray()      </td>
 <td>Definition: Returns an array containing all of the elements,
  in this list in proper sequence (from first to last element).</td>
 </tr>
 
 <tr>
-<td>26. toArray( Object[] O)      </td>
+<td>28. toArray( Object[] O)      </td>
 <td>Definition: It is also used to return an array containing all of the elements,
    in this list in the correct order.</td>
 </tr>
 
 <tr>
-<td>27. sort( Comparator < ? super E > c )       </td>
+<td>29. sort( Comparator < ? super E > c )       </td>
 <td>Definition: Sorts this list according to the order ,
  induced by the specified Comparator. </td>
 </tr>
 
 <tr>
-<td>28. trimToSize()        </td>
+<td>30. trimToSize()        </td>
 <td>Definition: Trims the capacity of this ArrayList instance,
  to be the list's current size. An application can use this,
  operation to minimize the storage of an ArrayList instance. </td>
