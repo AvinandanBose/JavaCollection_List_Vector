@@ -1399,6 +1399,33 @@ by the collection's iterator.
    
 ```
 
+<h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods13.java">13.poll()</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Retrieves and removes the head (first element) of this list.
+   
+```
+
+
+<h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods14.java">14.pollFirst()</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Retrieves and removes the first element of this list, 
+ or returns null if this list is empty.
+   
+```
+
+<h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods15.java">15.pollLast()</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Retrieves and removes the last element of this list, 
+ or returns null if this list is empty.
+   
+```
+
 
    
  
