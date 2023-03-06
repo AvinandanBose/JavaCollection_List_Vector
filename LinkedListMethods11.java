@@ -2,7 +2,7 @@ import java.util.LinkedList;
 public class LinkedListMethods11 {
 
     public static void main(String[] args) {
-        // peekLast()
+        // peekFirst()
         LinkedList<Integer> list = new LinkedList<>();
         list.add(1);
         list.add(2);
@@ -12,7 +12,7 @@ public class LinkedListMethods11 {
 
         System.out.println(list);
 
-        Integer i = list.peekLast();
+        Integer i = list.peekFirst();
         System.out.println(i);
         System.out.println(list);
 
