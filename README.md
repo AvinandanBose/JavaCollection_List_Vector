@@ -1161,4 +1161,21 @@ implements Collection<E>
 <h1></h1>
 <h1 align="Center">Linked List</h1>
 
+<ul>
+<h3><li>1. Linked List class is a part of the Collection framework present in java.util package. .</li></h3>
+
+<h3><li>2. LinkedList class extends AbstractSequentialList , an abstract class which provide skeletal framework of LinkedList class.</li></h3>
+<h3><li>3.  LinkedList class implements List interface , Deque interface, Cloneable interface and  Serializable interface.</li></h3>
+<h3><li>4.  Linked List class is an implementation of the LinkedList data structure.</li></h3>
+
+<h3><li>5. LinkedList data structure is a linear data structure where the elements are not stored in contiguous locations and every element is a separate object with a <i>data part</i> and <i>address part</i>. The elements that are added in a LinkedList data structure, are linked using pointers and addresses. Each element is known as a <i>node</i>. </li></h3>
+
+<h3><li>6. As elements are added dynamically by LinkedList class, size also increases accordingly. And there is no need for extra functionality to increase the size of Linked List.</li></h3>
+
+<h3><li>7. Internally, the LinkedList is implemented using the doubly <i>Linked List Data Structure</i>. A doubly linked list contains an extra pointer, typically called the previous pointer, together with the next pointer and data .</li></h3>
+
+![Screenshot (284)](https://user-images.githubusercontent.com/38869235/223013458-cef38d7c-4961-4b34-a6e2-e48460319844.png)
+
+</ul>
+
 
