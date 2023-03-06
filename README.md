@@ -1219,6 +1219,8 @@ implements Collection<E>
 <h3><li>6. As elements are added dynamically by LinkedList class, size also increases accordingly. And there is no need for extra functionality to increase the size of Linked List.</li></h3>
 
 <h3><li>7. Internally, the LinkedList is implemented using the doubly <i>Linked List Data Structure</i>. A doubly linked list contains an extra pointer, typically called the previous pointer, together with the next pointer and data .</li></h3>
+  
+<h3><li>8.LinkedList is not synchronized .</li></h3>
 
 ![Screenshot (284)](https://user-images.githubusercontent.com/38869235/223013458-cef38d7c-4961-4b34-a6e2-e48460319844.png)
 
