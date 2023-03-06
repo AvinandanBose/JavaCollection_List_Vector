@@ -1323,7 +1323,7 @@ by the collection's iterator.
    ```
    
    
-    <h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods4.java">4. element()</a></li></h3>
+  <h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods4.java">4. element()</a></li></h3>
    
    ```Syntax
    
