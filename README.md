@@ -1332,6 +1332,22 @@ by the collection's iterator.
    
    ```
    
+  <h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods5.java">5. getFirst()</a></li></h3>
+   
+   ```Syntax
+   
+   Def : Returns the first element in this list.
+   
+   ```
+   
+ <h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods6.java">6. getLast()</a></li></h3>
+   
+ ```Syntax
+   
+ Def : Returns the last element in this list.
+   
+```
+   
  
   
  </ul>
