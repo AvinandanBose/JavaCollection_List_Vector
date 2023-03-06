@@ -1268,6 +1268,17 @@ by the collection's iterator.
 
 <h2></h2>
 <h2 align="Center">Methods of Linked List Class</h2>
+<ul>
+<h3><i> 1. The Methods that go with Linked List and Array List. </i></h3>
+  
+ <ul>
+   <h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods.java">1. Methods in Linked List and Array List</a></li></h3>
+   
+ <h3><i><ins>Note:</ins> ensureCapacity ( int minCapacity ) , removeRange ( int fromIndex, int toIndex ), sort( Comparator < ? super E > c ), trimToSize ( ) , available to ArrayList Class but not available to  LinkedList class due to the characteristics : 1) Size adjusted dynamically and  2) Addition of elements based on Doubly Linked List Data Structure. </i></h3>
+   
+ </ul>
+  
+</ul>
 
 </ul>
 
