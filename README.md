@@ -1347,6 +1347,31 @@ by the collection's iterator.
  Def : Returns the last element in this list.
    
 ```
+
+ <h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods7.java">7. offer(E e)</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Adds the specified element as the tail 
+ (last element) of this list.
+   
+```
+
+ <h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods8.java">8.offerFirst(E e)</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Inserts the specified element at the front of this list.
+   
+```
+
+<h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods9.java">9.offerLast(E e)</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Inserts the specified element at the end of this list.
+   
+```
    
  
   
