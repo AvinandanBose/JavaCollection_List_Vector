@@ -1294,6 +1294,19 @@ by the collection's iterator.
  </ul>
  
  <h3><i> 2. New Methods of Linked List Class. </i></h3>
+ 
+ <ul>
+   <h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods1.java">1. addFirst(E e)</a></li></h3>
+   
+   ```Syntax
+   
+   Def : It is used to insert the given element at the beginning of a list.
+   
+   ```
+   
+ 
+  
+ </ul>
   
 </ul>
 
