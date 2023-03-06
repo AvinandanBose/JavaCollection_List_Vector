@@ -1161,6 +1161,52 @@ implements Collection<E>
 <h1></h1>
 <h1 align="Center">Linked List</h1>
 
+```mermaid
+  
+  sequenceDiagram
+    
+  
+java.util.Collection->>java.util.AbstractCollection:implements
+java.lang.Object->>java.util.AbstractCollection:extends
+java.util.AbstractCollection->>java.util.AbstractList:extends 
+java.util.AbstractList->>java.util.List:implements
+java.util.AbstractSequentialList->>java.util.AbstractList:extends 
+java.util.LinkedList->>java.util.AbstractSequentialList:extends
+java.util.LinkedList->>java.util.Deque:implements
+java.util.LinkedList->>java.lang.Cloneable:implements
+java.util.LinkedList->>java.io.Serializable:implements
+java.util.LinkedList->>java.util.List:implements
+  
+```
+
+<h3 align="Center">
+
+```
+public class LinkedList<E>
+extends AbstractSequentialList<E>
+implements List<E>, Deque<E>, Cloneable, Serializable
+
+//Others
+------------------------------------------------
+public abstract class AbstractSequentialList<E>
+extends AbstractList<E>
+
+public class LinkedList<E>
+extends AbstractSequentialList<E>
+
+public abstract class AbstractList<E>
+extends AbstractCollection<E>
+implements List<E>
+    
+public abstract class AbstractCollection<E>
+extends Object
+implements Collection<E>
+-------------------------------------------------
+
+```
+
+</h3>
+
 <ul>
 <h3><li>1. Linked List class is a part of the Collection framework present in java.util package. .</li></h3>
 
