@@ -90,6 +90,14 @@ public class LinkedListMethods {
         int lastindexof = list1.lastIndexOf(6);
         System.out.println(lastindexof);
 
+        //iterator()
+
+        Iterator<Integer> iterator2 = list1.iterator();
+
+        while(iterator2.hasNext()){
+            System.out.println(iterator2.next());
+        }
+
         //listIterator ( ) 
 
         Iterator<Integer> iterator = list1.listIterator();
