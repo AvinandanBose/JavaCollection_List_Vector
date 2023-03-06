@@ -1304,6 +1304,14 @@ by the collection's iterator.
    
    ```
    
+   <h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods2.java">2. addLast(E e)</a></li></h3>
+   
+   ```Syntax
+   
+   Def : It is used to append the given element to the end of a list.
+   
+   ```
+   
  
   
  </ul>
