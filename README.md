@@ -1322,6 +1322,16 @@ by the collection's iterator.
    
    ```
    
+   
+    <h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods4.java">4. element()</a></li></h3>
+   
+   ```Syntax
+   
+   Def : Returns the first element/Retrieves the first element without,
+   removing it from the list.
+   
+   ```
+   
  
   
  </ul>
