@@ -540,6 +540,21 @@ that is initialized with the  elements of the collection c.
   between the specified fromIndex, inclusive, and toIndex, exclusive. 
   (If fromIndex and toIndex are equal, the returned list is empty.)
   
+  For Generic Types:
+  
+   ArrayList<String> arrayList = new ArrayList<>();
+   List<String> arr = arrayList.subList(fromIndex,toIndex);
+   AbstractList<String> arr1 = (AbstractList<String>) arrayList.subList(fromIndex, toIndex);
+   //A cast for AbstractList
+    
+ For Raw Types:
+    
+ ArrayList  arrayList1 = new ArrayList();
+ List arr2 =  arrayList1.subList(0, 1);
+  AbstractList arr3 = (AbstractList) arrayList1.subList(0, 1);
+  //A cast for AbstractList 
+    
+   
 
   ```
     
