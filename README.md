@@ -1372,6 +1372,34 @@ by the collection's iterator.
  Def: Inserts the specified element at the end of this list.
    
 ```
+
+<h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods10.java">10.peek()</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Retrieves, the head (first element) of this list,but does not remove it.
+   
+```
+
+<h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods11.java">11.peekFirst()</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Retrieves, the first element of this list, 
+ or returns null if this list is empty, but does not remove it.
+   
+```
+
+<h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods12.java">12.peekLast()</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Retrieves, the last element of this list, 
+ or returns null if this list is empty,but does not remove it.
+   
+```
+
+
    
  
   
