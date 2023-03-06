@@ -1228,6 +1228,39 @@ implements Collection<E>
 
 <ul>
 
+<h3><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListConstructor1.java"> 1. LinkedList() </h3>
+
+```Syntax
+
+Generic Type:
+LinkedList<String> list = new LinkedList<>();
+
+Raw Type:
+LinkedList list = new LinkedList();
+
+Def: This constructor is used to create an empty linked list.
+
+```
+
+<h3><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListConstructor2.java"> 2. LinkedList(Collection C) </h3>
+
+```Syntax
+
+Generic Type:
+Collection<String> collection = new ArrayList<String>();
+LinkedList<String> list = new LinkedList<String>(collection);
+
+Raw Type:
+Collection collection1 = new ArrayList();
+LinkedList list1 = new LinkedList();
+
+Def: Constructs a list containing the elements,
+of the specified collection, 
+in the order they are returned,
+by the collection's iterator.
+
+```
+
 
 </ul>
 
