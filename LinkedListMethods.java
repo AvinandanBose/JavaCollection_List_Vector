@@ -105,6 +105,17 @@ public class LinkedListMethods {
             System.out.println(iterator1.next());
         }
 
+        //remove ( Object o )
+
+        LinkedList<String> list9 = new LinkedList<>();
+        list9.add("a");
+        list9.add("b");
+        list9.add("c");
+        list9.add("d");
+        System.out.println(list9);
+        list9.remove("b");
+        System.out.println(list9);
+
         // remove ( int index ) 
 
         list1.remove(2);
@@ -196,6 +207,7 @@ public class LinkedListMethods {
         for(int j = 0; j < array1.length; j++){
             System.out.println(array1[j]);
         }
+
 
       
 
