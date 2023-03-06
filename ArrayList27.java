@@ -1,3 +1,4 @@
+import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.List;
 public class ArrayList27 {
@@ -11,6 +12,10 @@ public class ArrayList27 {
         System.out.println(arrayList);
         List<String> arr = arrayList.subList(0, 2);
          System.out.println(arr);
+
+         AbstractList<String> arr1 = (AbstractList<String>) arrayList.subList(0, 2);
+
+            System.out.println(arr1);
     }
     
 }
