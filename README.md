@@ -1473,6 +1473,68 @@ by the collection's iterator.
    
 ```
 
+<h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods16.java">16.push()</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Pushes an element onto the stack represented by this list. 
+ In other words, inserts the element at the front of this list.
+   
+```
+
+<h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods17.java">17.pop()</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Pops an element from the stack represented by this list. 
+ In other words, removes and returns the first element of this list.
+   
+```
+
+<h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods18.java">18.remove()</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Retrieves and removes the head (first element) of this list.
+   
+```
+
+<h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods19.java">19.removeFirst()</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Removes and returns the first element from this list.
+   
+```
+
+<h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods20.java">20.removeLast()</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Removes and returns the last element from this list.
+   
+```
+
+<h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods21.java">21.removeFirstOccurrence(Object o)</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Removes the first occurrence of the specified element in this list 
+ (when traversing the list from head to tail). 
+ If the list does not contain the element, it is unchanged.
+   
+```
+
+<h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods22.java">22.removeLastOccurrence(Object o)</a></li></h3>
+   
+ ```Syntax
+   
+ Def: Removes the last occurrence of the specified element in this list 
+ (when traversing the list from head to tail). 
+ If the list does not contain the element, it is unchanged.
+   
+```
+
 
    
  
