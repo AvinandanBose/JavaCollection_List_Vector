@@ -1222,6 +1222,15 @@ implements Collection<E>
 
 ![Screenshot (284)](https://user-images.githubusercontent.com/38869235/223013458-cef38d7c-4961-4b34-a6e2-e48460319844.png)
 
+
+<h2></h3>
+<h2 align="Center">Constructors of Linked List Class</h2>
+
+<ul>
+
+
+</ul>
+
 </ul>
 
 
