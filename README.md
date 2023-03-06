@@ -1312,6 +1312,16 @@ by the collection's iterator.
    
    ```
    
+   <h3> <li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/LinkedListMethods3.java">3. descendingIterator()</a></li></h3>
+   
+   ```Syntax
+   
+   Def : Returns an iterator over the elements in this deque,
+   in reverse sequential order. 
+   The elements will be returned in order from last (tail) to first (head).
+   
+   ```
+   
  
   
  </ul>
