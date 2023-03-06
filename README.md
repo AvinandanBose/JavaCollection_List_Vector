@@ -1292,6 +1292,8 @@ by the collection's iterator.
  <h3><i><ins>Note:</ins> ensureCapacity ( int minCapacity ) , removeRange ( int fromIndex, int toIndex ), sort( Comparator < ? super E > c ), trimToSize ( ) , available to ArrayList Class but not available to  LinkedList class due to the characteristics : 1) Size adjusted dynamically and  2) Addition of elements based on Doubly Linked List Data Structure. </i></h3>
    
  </ul>
+ 
+ <h3><i> 2. New Methods of Linked List Class. </i></h3>
   
 </ul>
 
