@@ -1549,6 +1549,226 @@ by the collection's iterator.
 ```
 
 
+<Table>
+
+<tr>
+<th> New Methods in Linked List</th>
+<th> Definition </th>
+</tr>
+
+<tr>
+
+<td>1. addFirst(E e) </td>
+
+<td>Definition: It is used to insert the given element at the beginning of a list.</td>
+
+</tr>
+
+
+<tr>
+
+<td>2. addLast(E e) </td>
+
+<td>Definition: It is used to append the given element to the end of a list.</td>
+
+</tr>
+
+
+<tr>
+
+<td>3. descendingIterator() </td>
+
+<td>Definition: Returns an iterator over the elements in this deque,
+in reverse sequential order. The elements will be returned in order from last (tail) to first (head).</td>
+
+</tr>
+
+
+<tr>
+
+<td>4. element()</td>
+
+<td>Definition: Returns the first element/Retrieves the first element without,
+removing it from the list.</td>
+
+</tr>
+
+<tr>
+
+<td>5. getFirst()</td>
+
+<td>Definition: Returns the first element in this list.</td>
+
+</tr>
+
+
+<tr>
+
+<td>6. getLast()</td>
+
+<td>Definition: Returns the last element in this list.</td>
+
+</tr>
+
+
+<tr>
+
+<td>7. offer(E e)</td>
+
+<td>Definition: Adds the specified element as the tail 
+(last element) of this list.</td>
+
+</tr>
+
+
+<tr>
+
+<td>8. offerFirst(E e)</td>
+
+<td>Definition: Inserts the specified element at the front of this list.</td>
+
+</tr>
+
+
+<tr>
+
+<td>9. offerLast(E e)</td>
+
+<td>Definition: Inserts the specified element at the end of this list.</td>
+
+</tr>
+
+
+<tr>
+
+<td>10. peek()</td>
+
+<td>Definition: Retrieves, the head (first element) of this list,but does not remove it.</td>
+
+</tr>
+
+
+<tr>
+
+<td>11. peekFirst()</td>
+
+<td>Definition: Retrieves, the first element of this list, 
+or returns null if this list is empty, but does not remove it.</td>
+
+</tr>
+
+
+<tr>
+
+<td>12. peekLast()</td>
+
+<td>Definition: Retrieves, the last element of this list, 
+or returns null if this list is empty,but does not remove it.</td>
+
+</tr>
+
+
+<tr>
+
+<td>13. poll()</td>
+
+<td>Definition: Retrieves and removes the head (first element) of this list.</td>
+
+</tr>
+
+
+<tr>
+
+<td>14. pollFirst()</td>
+
+<td>Definition: Retrieves and removes the first element of this list, 
+or returns null if this list is empty.</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>15. pollLast()</td>
+
+<td>Definition: Retrieves and removes the last element of this list, 
+or returns null if this list is empty.</td>
+
+</tr>
+
+
+<tr>
+
+<td>16. push()</td>
+
+<td>Definition: Pushes an element onto the stack represented by this list. 
+In other words, inserts the element at the front of this list.</td>
+
+</tr>
+
+
+<tr>
+
+<td>17. pop()</td>
+
+<td>Definition: Pops an element from the stack represented by this list. 
+In other words, removes and returns the first element of this list.</td>
+
+</tr>
+
+
+<tr>
+
+<td>18. remove()</td>
+
+<td>Definition: Retrieves and removes the head (first element) of this list.</td>
+
+</tr>
+
+
+<tr>
+
+<td>19. removeFirst()</td>
+
+<td>Definition: Removes and returns the first element from this list.</td>
+
+</tr>
+
+
+<tr>
+
+<td>20. removeLast()</td>
+
+<td>Definition: Removes and returns the last element from this list.</td>
+
+</tr>
+
+
+<tr>
+
+<td>21. removeFirstOccurrence(Object o)</td>
+
+<td>Definition: Removes the first occurrence of the specified element in this list 
+(when traversing the list from head to tail). 
+If the list does not contain the element, it is unchanged.</td>
+
+</tr>
+
+
+<tr>
+
+<td>22. removeLastOccurrence(Object o)</td>
+
+<td>Definition: Removes the last occurrence of the specified element in this list 
+(when traversing the list from head to tail). 
+If the list does not contain the element, it is unchanged.</td>
+
+</tr>
+
+</Table>
+
+
    
  
   
