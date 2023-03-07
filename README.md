@@ -839,7 +839,13 @@ specified collection. One can tell it gives the intersection part.</td>
 <h2 align="Center">Synchronization of Array List</h2>
 
 <ul>
+<h3> ArrayList is not synchronized by default.If multiple threads access an ArrayList instance concurrently, and at least one of the threads modifies the list structurally, it must be synchronized externally. We can achieve <i>synchronizing Array List </i> by using <i> Collections.synchronizedList() </i> method. The method  returns a Synchronized(thread-safe) list backed by the specified list. </h3>
 
+<ul>
+<h3><i><ins>Example Of Synchronization of Array List</ins></i></h3>
+<h3><li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/SynchronizationofArrayList.java">Synchronization of Array List-Example</a></li></h3>
+
+</ul>
 
 
 </ul>
