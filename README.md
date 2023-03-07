@@ -1768,7 +1768,26 @@ If the list does not contain the element, it is unchanged.</td>
 
 </Table>
 
+<Table>
 
+<tr>
+<th>  Inherit from Class/Interface</th>
+<th>  Method/s</th>
+<th> Definition </th>
+</tr>
+
+<tr>
+
+<td>AbstractCollection</td>
+<td>23. toString()</td>
+<td>Definition: Returns a string representation of this collection. 
+The string representation consists of a list of the collection's elements,
+in the order they are returned by its iterator, enclosed in square brackets ("[]"). 
+Adjacent elements are separated by the characters ", " (comma and space).</td>
+
+</tr>
+
+</Table>
    
  
   
