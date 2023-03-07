@@ -1847,7 +1847,7 @@ Adjacent elements are separated by the characters ", " (comma and space).</td>
 <h2 align="Center">Synchronization of Linked List</h2>
 
 <ul>
-<h3> LinkedList is not synchronized by default.If multiple threads access an LinkedList  instance concurrently, and at least one of the threads modifies the list structurally, it must be synchronized externally. We can achieve <i>synchronizing Array List</i> by using <i>Collections.synchronizedList() </i> method. The method returns a Synchronized(thread-safe) list backed by the specified list.</h3>
+<h3> LinkedList is not synchronized by default.If multiple threads access an LinkedList  instance concurrently, and at least one of the threads modifies the list structurally, it must be synchronized externally. We can achieve <i>synchronizing Linked List</i> by using <i>Collections.synchronizedList() </i> method. The method returns a Synchronized(thread-safe) list backed by the specified list.</h3>
 
 <ul>
 <h3><i><ins>Example Of Synchronization of Linked List</ins></i></h3>
