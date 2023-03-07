@@ -851,7 +851,7 @@ Representation:
 
 Collections.synchronizedList()  can be represented as,
 
-java.util.Collections.synchronizedList(List<Integer> list)
+java.util.Collections.synchronizedList(List<T> list)
 
 Also inside Collection interface it is defined as:
 
