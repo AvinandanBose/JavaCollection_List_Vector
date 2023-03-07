@@ -1837,18 +1837,55 @@ Adjacent elements are separated by the characters ", " (comma and space).</td>
 
 </Table>
 
-<h2></h2>
-<h2 align="Center">Synchronization of Linked List</h2>
 
-<ul>
-
-
-
-</ul>
    
  
   
  </ul>
+ 
+ <h2></h2>
+<h2 align="Center">Synchronization of Linked List</h2>
+
+<ul>
+<h3> LinkedList is not synchronized by default.If multiple threads access an LinkedList  instance concurrently, and at least one of the threads modifies the list structurally, it must be synchronized externally. We can achieve <i>synchronizing Array List</i> by using <i>Collections.synchronizedList() </i> method. The method returns a Synchronized(thread-safe) list backed by the specified list.</h3>
+
+<ul>
+<h3><i><ins>Example Of Synchronization of Linked List</ins></i></h3>
+<h3><li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/SynchronizationofLinkedList.java">Synchronization of Linked List-Example</a></li></h3>
+
+```Syntax
+
+Representation: 
+
+Collections.synchronizedList()  can be represented as,
+
+java.util.Collections.synchronizedList(List<T> list)
+
+Also inside Collection interface it is defined as:
+
+public static  List<T> synchronizedList(List<T> list) .
+
+Here T represents generic.
+
+Example: 
+
+List<String> list = Collections.synchronizedList(new LinkedList<>());
+List<Integer> list1 = Collections.synchronizedList(new LinkedList<>());
+
+: And :
+
+synchronized (list) {...}
+
+Here synchronized is a keyword of Java.
+And synchronized can be used as return type of a method.
+When it becomes return type of a method , it returns a
+thread-safe and synchronized keyword helps in
+multi-threaded synchronization activity.
+
+```
+
+</ul>
+</ul>
   
 </ul>
 
