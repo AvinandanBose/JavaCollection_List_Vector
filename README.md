@@ -872,7 +872,7 @@ Here synchronized is a keyword of Java.
 And synchronized can be used as return type of a method.
 When it becomes return type of a method , it returns a
 thread-safe and synchronized keyword helps in
-multi-threaded activity.
+multi-threaded synchronization activity.
 
 ```
 
