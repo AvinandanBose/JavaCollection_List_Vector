@@ -845,6 +845,39 @@ specified collection. One can tell it gives the intersection part.</td>
 <h3><i><ins>Example Of Synchronization of Array List</ins></i></h3>
 <h3><li><a href="https://github.com/AvinandanBose/JavaCollection_List/blob/main/SynchronizationofArrayList.java">Synchronization of Array List-Example</a></li></h3>
 
+```Syntax
+
+Representation: 
+
+Collections.synchronizedList()  can be represented as,
+
+java.util.Collections.synchronizedList(List<Integer> list)
+
+Also inside Collection interface it is defined as:
+
+public static  List<T> synchronizedList(List<T> list) .
+
+Here T represents generic.
+
+Example: 
+
+List<String> list = Collections.synchronizedList(new ArrayList<>());
+List<Integer> list1 = Collections.synchronizedList(new ArrayList<>());
+
+: And :
+
+synchronized (list) {...}
+
+Here synchronized is a keyword of Java.
+And synchronized can be used as return type of a method.
+When it becomes return type of a method , it returns a
+thread-safe and synchronized keyword helps in
+multi-threaded activity.
+
+```
+
+
+
 </ul>
 
 
