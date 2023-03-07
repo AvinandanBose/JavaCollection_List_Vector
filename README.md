@@ -835,6 +835,15 @@ specified collection. One can tell it gives the intersection part.</td>
   
 </ul>
 
+<h2></h2>
+<h2 align="Center">Synchronization of Array List</h2>
+
+<ul>
+
+
+
+</ul>
+
 
 </ul>
 
@@ -1788,6 +1797,15 @@ Adjacent elements are separated by the characters ", " (comma and space).</td>
 </tr>
 
 </Table>
+
+<h2></h2>
+<h2 align="Center">Synchronization of Linked List</h2>
+
+<ul>
+
+
+
+</ul>
    
  
   
