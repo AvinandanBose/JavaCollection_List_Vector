@@ -1892,3 +1892,55 @@ multi-threaded synchronization activity.
 </ul>
 
 
+<h1></h1>
+<h1 align="Center">Vectors</h1>
+
+
+```mermaid
+  
+  sequenceDiagram
+    
+java.util.Vector->>java.util.AbstractList:extends
+java.util.Vector->>java.util.List:implements
+java.util.Vector->>java.util.RandomAccess:implements
+java.util.Vector->>java.lang.Cloneable:implements
+java.util.Vector->>java.io.Serializable:implements
+java.util.AbstractCollection->>java.util.Collection:implements
+java.util.AbstractCollection->>java.lang.Object:extends
+java.util.AbstractList->>java.util.AbstractCollection:extends 
+java.util.AbstractList->>java.util.List:implements
+  
+```
+
+<ul>
+
+
+<h3 align="Center">
+  
+```
+  
+public class Vector<E>
+extends AbstractList<E>
+implements List<E>, RandomAccess, Cloneable, Serializable
+
+//Others
+ ---------------------------------------
+
+public abstract class AbstractList<E>
+extends AbstractCollection<E>
+implements List<E>
+
+public abstract class AbstractCollection<E>
+extends Object
+implements Collection<E>
+  
+--------------------------------
+
+```
+</h3>
+
+
+</ul>
+
+
+
