@@ -1939,6 +1939,18 @@ implements Collection<E>
 ```
 </h3>
 
+<h3><li>1. Vector is like the dynamic array which can grow or shrink its size.</li></h3>
+<h3><li>2. Vector contains element can be accessed by its  index just like an array.</li></h3>
+<h3><li>3. Vector is just similar to Array List class can insert element, updated or removed .</li></h3>
+<h3><li>4. Unlike ArrayList , Vector is synchronized.</li></h3>
+<h3><li>5. Like ArrayList class , Vector Class allows random access.</li></h3>
+<h3><li>6. Like ArrayList class , Vector Class maintains insertion order.</li></h3>
+<h3><li>7. Like ArrayList class , Vector Class can contain duplicate elements.</li></h3>
+<h3><li>8. As ArrayList is not synchronised and Vector Class is synchronized , ArrayList is faster than Vector Class i.e. Vector Class is slower than ArrayList.</li></h3>
+
+<h3><li>9. The Iterators returned by the Vector class are fail-fast. In the case of concurrent modification, it fails and throws the ConcurrentModificationException.</li></h3>
+
+<h3><li>10. We cannot create a Vector of the primitive types, such as int, float, char, etc. It is required to use the required wrapper class.That is it follows : <a href="https://github.com/AvinandanBose/JavaGeneric"> Generic</a> characteristics.</li></h3>
 
 </ul>
 
