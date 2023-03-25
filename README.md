@@ -1952,6 +1952,31 @@ implements Collection<E>
 
 <h3><li>10. We cannot create a Vector of the primitive types, such as int, float, char, etc. It is required to use the required wrapper class.That is it follows : <a href="https://github.com/AvinandanBose/JavaGeneric"> Generic</a> characteristics.</li></h3>
 
+
+<h3><li>11. We cannot create a Vector of the primitive types, such as int, float, char, etc. It is required to use the required wrapper class.That is it follows : <a href="https://github.com/AvinandanBose/JavaGeneric"> Generic</a> characteristics.</li></h3>
+
+<h3><li>12.if we open Vector class , we will able to see that:</li></h3>
+
+<h3 align="Left">
+
+```Syntax
+
+public class Vector<E>
+    extends AbstractList<E>
+    implements List<E>, RandomAccess, Cloneable, java.io.Serializable
+{
+
+ protected Object[] elementData;
+ 
+ protected int elementCount;
+
+protected int capacityIncrement;
+
+}
+
+```
+
+</h3>
 </ul>
 
 
