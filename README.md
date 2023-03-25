@@ -1953,9 +1953,8 @@ implements Collection<E>
 <h3><li>10. We cannot create a Vector of the primitive types, such as int, float, char, etc. It is required to use the required wrapper class.That is it follows : <a href="https://github.com/AvinandanBose/JavaGeneric"> Generic</a> characteristics.</li></h3>
 
 
-<h3><li>11. We cannot create a Vector of the primitive types, such as int, float, char, etc. It is required to use the required wrapper class.That is it follows : <a href="https://github.com/AvinandanBose/JavaGeneric"> Generic</a> characteristics.</li></h3>
 
-<h3><li>12.if we open Vector class , we will able to see that:</li></h3>
+<h3><li>11.  if we open Vector class , we will able to see that:</li></h3>
 
 <h3 align="Left">
 
@@ -1975,6 +1974,15 @@ protected int capacityIncrement;
 }
 
 ```
+
+<h3>Vector defines three protected data members:</h3>
+<ul>
+
+<h3><li> <i>int capacityIncreament:</i> Contains the increment value.</li></h3>
+<h3><li> <i>int elementCount: </i>  Number of elements currently in vector stored in it.</li></h3>
+<h3><li> <i>Object elementData[]: </i>  Array that holds the vector is stored in it.</li></h3>
+
+</ul>
 
 </h3>
 </ul>
