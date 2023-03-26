@@ -1989,8 +1989,73 @@ protected int capacityIncrement;
 
 <ul>
 
+<h3 ahref="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/vectorconst.java">1. vector()</h3>
+
+```Syntax
+
+Def: It constructs an empty vector with the default size as 10.
+Default Size of Vector: 10
+Default Initial Capacity Increment: 0
+
+As we can see in Vector Class constructor:
+
+public class Vector<E>
+    extends AbstractList<E>
+    implements List<E>, RandomAccess, Cloneable, java.io.Serializable
+{
+
+....
+
+public Vector(int initialCapacity) {
+        this(initialCapacity, capacityIncrement: 0);
+    }
+    
+ public Vector() {
+        this(initialCapacity: 10);
+    }
+ ....
+ 
+ }
+
+By default, the vector increases its capacity by double.
+
+```
+
+<h3 ahref="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/vectorconst1.java">2. vector(int initialCapacity)</h3>
+
+```Syntax
+
+Def: It constructs an empty vector with the specified initial capacity 
+and with its capacity increment equal to zero.
+
+
+```
+
+<h3 ahref="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/vectorconst2.java">3. vector(int initialCapacity,int capacityIncrement)</h3>
+
+```Syntax
+
+Def: It constructs an empty vector with the specified initial capacity 
+and capacity increment.
+
+Note: If an increment is specified in its constructor, 
+Vector will grow in accordance with it in each allocation cycle.
+
+
+```
+
+<h3 ahref="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/vectorconst3.java">4. Vector( Collection<? extends E> c)</h3>
+
+```Syntax
+
+Def: It constructs a vector that contains the elements of a collection c.
+
+```
 
 </ul>
+
+<h2></h2>
+<h2 align="Center">Methods of Vector Class</h2>
 
 
 </ul>
