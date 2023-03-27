@@ -2354,6 +2354,8 @@ System.out.println(vector);
 vector.setSize(-1);//Negative Size
 System.out.println(vector);
 
+Output: ArrayIndexOutOfBoundsException
+
 ```
 
 <table>
