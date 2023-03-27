@@ -2057,6 +2057,15 @@ Def: It constructs a vector that contains the elements of a collection c.
 <h2></h2>
 <h2 align="Center">Methods of Vector Class</h2>
 
+<ul>
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods1.java">1. Methods of Vector Class (That contains in Array List )</a></h3>
+
+<ul>
+
+<h3><i><ins> Note:</ins>All the methods that contains and discussed in Array List are also in Vector class given here.</i></h3>
+</ul>
+</ul>
+
 
 </ul>
 
