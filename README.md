@@ -2068,6 +2068,223 @@ Def: It constructs a vector that contains the elements of a collection c.
 <h3> <i><ins>Legacy Support of Vector Class:</ins> There are some methods that doesnot contain in ArrayList class but have in Vector class considered to be extras , and the methods that are in Linked List class are justified according to the data structure that it follows . These extra methods of Vector class are considered as "Legacy Methods" or old methods that are used in old times since it has been introduced in Java and carried forward . According to the history of Vector, it has been used as class template in  STL Library of C++ around 1994 and it had been incorporated as a "Class" in "Java  in JDK 1.0 since 1996, hence it falls under Legacy class  or an old class and as of the Java 2 platform v1.2 i.e. around 1998, this class was retrofitted to implement the List interface, making it a member of the Java Collections Framework. Hence it has "Legacy Support" i.e. using "Legacy Methods" that are used earlier can be implemented in mordern times under compatibility support of "Collection framework". </i></h3>
 
 <h3> <i>Extra Methods of Vector Class.</i></h3>
+
+<ul>
+
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods2.java">1. addElement(E obj)</a></h3>
+
+```Syntax
+
+Def: Adds the specified component to the end of this vector, 
+increasing its size by one. 
+
+The capacity of this vector is increased ,
+if its size becomes greater than its capacity.
+
+```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods3.java">2. capacity()</a></h3>
+
+```Syntax
+
+Def: Returns the current capacity of this vector.
+
+The current capacity (the length of its internal data array, 
+kept in the field elementData of this vector)
+
+```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods4.java">3. copyInto(Object[] anArray)</a></h3>
+
+```Syntax
+
+Def: Copies the components of this vector into the specified array. 
+
+The item at index k in this vector is copied into component k of 
+an Array.
+
+```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods5.java">4. elementAt(int index)</a></h3>
+
+```Syntax
+
+Def: Returns the component at the specified index.
+
+This method is identical in functionality to the get(int) 
+method (which is part of the List interface).
+
+```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods6.java">5. elements()</a></h3>
+
+```Syntax
+
+Def: Returns an enumeration of the components of this vector. 
+
+
+The returned Enumeration object will generate all items in this vector.
+The first item generated is the item at index 0,
+then the item at index 1, and so on. If the vector is ,
+structurally modified while enumerating over the elements ,
+then the results of enumerating are undefined.
+
+```
+
+
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods7.java">6. firstElement()</a></h3>
+
+
+```Syntax
+
+Def: Returns the first component (the item at index 0) of this vector.
+
+```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods8.java">7. indexOf(Object o, int index)</a></h3>
+
+
+```Syntax
+
+Def: Returns the index of the first occurrence of the specified element,
+in this vector, searching forwards from index, 
+or returns -1 if the element is not found.
+
+```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods9.java">8. insertElementAt(E obj, int index)</a></h3>
+
+
+```Syntax
+
+Def: Inserts the specified object as a component in this vector,
+at the specified index.
+
+Each component in this vector with an index,
+greater or equal to the specified index is shifted upward,
+to have an index one greater than the value it had previously.
+
+```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods10.java">9. lastElement()</a></h3>
+
+
+```Syntax
+
+Def: Returns the last component of the vector.
+
+
+```
+
+
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods11.java">10. removeAllElements()</a></h3>
+
+
+```Syntax
+
+Def: Removes all components from this vector and sets its size to zero.
+
+
+```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods12.java">11. removeElement(Object obj)</a></h3>
+
+
+```Syntax
+
+Def: Removes the first (lowest-indexed) occurrence of the argument,
+from this vector. 
+
+If the object is found in this vector, 
+each component in the vector with an index greater or equal 
+to the object's index is shifted downward to have an index 
+one smaller than the value it had previously.
+
+
+```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods13.java">12. removeElementAt(int index)</a></h3>
+
+
+```Syntax
+
+Def: Deletes the component at the specified index. 
+
+Each component in this vector with an index greater or 
+equal to the specified index is shifted downward ,
+to have an index one smaller than the value that
+it had previously. The size of this vector is decreased by 1.
+
+
+```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods14.java">13.replaceAll(UnaryOperator<E> operator)</a></h3>
+
+
+```Syntax
+
+Def: Replaces each element of this list with the result
+of applying the operator to that element. 
+
+Errors or runtime exceptions thrown by the operator 
+are relayed to the caller. 
+
+Note: It throws Null Pointer Exception ,
+if the added element is null,
+
+Eg:
+
+Vector<Integer> vector = new Vector<>();
+vector.addElement(null);
+vector.replaceAll(i -> i * 2);
+System.out.println(vector);
+
+
+
+```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods15.java">14.setElementAt(E obj, int index)</a></h3>
+
+```Syntax
+
+Def: Sets the component at the specified index of this vector,
+to be the specified object. 
+The previous component at that position is discarded. 
+
+```
+
+
+<h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods16.java">15.setSize(int newSize)</a></h3>
+
+```Syntax
+
+Def: Sets the size of this vector. 
+
+If the new size is greater than the current size, 
+new null items are added to the end of the vector. 
+
+If the new size is less than the current size, 
+all components at index newSize and greater are discarded.
+
+Note: 
+if the new size is negative, then it throws
+ArrayIndexOutOfBoundsException .
+
+Eg:
+
+Vector<Integer> vector = new Vector<>();
+vector.addElement(1);
+System.out.println(vector);
+
+vector.setSize(-1);//Negative Size
+System.out.println(vector);
+
+```
+
+
+
+</ul>
+
 </ul>
 
 
