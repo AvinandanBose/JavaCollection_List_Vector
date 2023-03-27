@@ -2150,6 +2150,40 @@ Def: Returns the index of the first occurrence of the specified element,
 in this vector, searching forwards from index, 
 or returns -1 if the element is not found.
 
+Eg:
+
+Vector<Integer> vector = new Vector<>();
+vector.addElement(4);
+int j = vector.indexOf(5, 0);
+  
+Returns: -1
+(Element 5 is not found at
+index 1)
+
+Again:
+
+int j = vector.indexOf(4, 1);
+
+Returns: -1
+
+(Element 4 is not found at
+index 1)
+
+Now: 
+
+Vector<Integer> vector = new Vector<>();
+vector.addElement(1);
+vector.addElement(2);
+vector.addElement(3);
+vector.addElement(4);
+
+Integer i = vector.indexOf(3, 0);
+System.out.println(i);
+
+It will start searching element 3 from
+index 0 and it will return 2 (index no)
+where the element 3 exists.
+
 ```
 
 <h3> <a href="https://github.com/AvinandanBose/JavaCollection_List_Vector/blob/main/VectorMethods9.java">8. insertElementAt(E obj, int index)</a></h3>
@@ -2199,6 +2233,21 @@ If the object is found in this vector,
 each component in the vector with an index greater or equal 
 to the object's index is shifted downward to have an index 
 one smaller than the value it had previously.
+
+Eg:
+
+Vector<Integer> vector = new Vector<>();
+vector.addElement(3);
+vector.addElement(3);
+ 
+vector.removeElement(3);
+
+Hence it will remove the first occurence
+of the object 3.
+
+System.out.println(vector); will return
+[3] which is at index 1 previously ,
+shifted to index 0 now.(downward )
 
 
 ```
@@ -2280,6 +2329,153 @@ vector.setSize(-1);//Negative Size
 System.out.println(vector);
 
 ```
+
+<table>
+
+<tr>
+<th> Extra Methods </th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td> 1. addElement(E obj) </td>
+<td>Def: Adds the specified component to the end of this vector, 
+increasing its size by one. 
+
+The capacity of this vector is increased ,
+if its size becomes greater than its capacity.</td>
+</tr>
+
+
+<tr>
+<td> 2. capacity() </td>
+<td>Def: Returns the current capacity of this vector.
+
+The current capacity (the length of its internal data array, 
+kept in the field elementData of this vector).</td>
+</tr>
+
+<tr>
+<td> 3. copyInto(Object[] anArray) </td>
+<td>Def: Returns the component at the specified index.
+
+This method is identical in functionality to the get(int) 
+method (which is part of the List interface).</td>
+</tr>
+
+<tr>
+<td> 4. elementAt(int index)) </td>
+<td>Def: Copies the components of this vector into the specified array. 
+
+The item at index k in this vector is copied into component k of 
+an Array.</td>
+</tr>
+
+
+<tr>
+<td> 5. elements() </td>
+<td>Def: Returns an enumeration of the components of this vector. 
+
+
+The returned Enumeration object will generate all items in this vector.
+The first item generated is the item at index 0,
+then the item at index 1, and so on. If the vector is ,
+structurally modified while enumerating over the elements ,
+then the results of enumerating are undefined.</td>
+</tr>
+
+
+<tr>
+<td> 6. firstElement() </td>
+<td>Def: Returns the first component (the item at index 0) of this vector.</td>
+</tr>
+
+<tr>
+<td> 7. indexOf(Object o, int index) </td>
+<td>Def: Returns the index of the first occurrence of the specified element,
+in this vector, searching forwards from index, 
+or returns -1 if the element is not found.</td>
+</tr>
+
+
+<tr>
+<td> 8. insertElementAt(E obj, int index)</td>
+<td>Def: Inserts the specified object as a component in this vector,
+at the specified index.
+
+Each component in this vector with an index,
+greater or equal to the specified index is shifted upward,
+to have an index one greater than the value it had previously.</td>
+</tr>
+
+
+<tr>
+<td> 9. lastElement()</td>
+<td>Def: Returns the last component of the vector.</td>
+</tr>
+
+
+<tr>
+<td> 10. removeAllElements()</td>
+<td>Def: Removes all components from this vector and sets its size to zero.</td>
+</tr>
+
+<td> 11. removeElement(Object obj)</td>
+<td>Def: Removes the first (lowest-indexed) occurrence of the argument,
+from this vector. 
+
+If the object is found in this vector, 
+each component in the vector with an index greater or equal 
+to the object's index is shifted downward to have an index 
+one smaller than the value it had previously.</td>
+</tr>
+
+
+<tr>
+<td> 12. removeElementAt(int index)</td>
+<td>Def: Deletes the component at the specified index. 
+
+Each component in this vector with an index greater or 
+equal to the specified index is shifted downward ,
+to have an index one smaller than the value that
+it had previously. The size of this vector is decreased by 1.</td>
+</tr>
+
+<tr>
+<td> 13. replaceAll(UnaryOperator operator)</td>
+<td>Def: Replaces each element of this list with the result
+of applying the operator to that element. 
+
+Errors or runtime exceptions thrown by the operator 
+are relayed to the caller. 
+
+Note: It throws Null Pointer Exception ,
+if the added element is null.</td>
+</tr>
+
+
+<tr>
+<td> 14. setElementAt(E obj, int index)</td>
+<td>Def: Sets the component at the specified index of this vector,
+to be the specified object. 
+The previous component at that position is discarded.</td>
+</tr>
+
+
+<tr>
+<td> 15. setSize(int newSize)</td>
+<td>Def: Sets the size of this vector. 
+
+If the new size is greater than the current size, 
+new null items are added to the end of the vector. 
+
+If the new size is less than the current size, 
+all components at index newSize and greater are discarded.if the new size is negative, then it throws
+ArrayIndexOutOfBoundsException .</td>
+</tr>
+
+
+</table>
 
 
 
