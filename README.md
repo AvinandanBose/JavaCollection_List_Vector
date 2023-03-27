@@ -2158,7 +2158,7 @@ int j = vector.indexOf(5, 0);
   
 Returns: -1
 (Element 5 is not found at
-index 1)
+index 0)
 
 Again:
 
