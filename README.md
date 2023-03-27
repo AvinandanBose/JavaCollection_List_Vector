@@ -2288,6 +2288,7 @@ vector.addElement(null);
 vector.replaceAll(i -> i * 2);
 System.out.println(vector);
 
+Throws: NullPointerException
 
 
 ```
@@ -2309,11 +2310,36 @@ The previous component at that position is discarded.
 
 Def: Sets the size of this vector. 
 
-If the new size is greater than the current size, 
-new null items are added to the end of the vector. 
+Note: If the new size is greater than the current size, 
+new null items are added to the end of the vector.
 
-If the new size is less than the current size, 
+Eg:
+
+Vector<Integer> vector = new Vector<>();
+vector.addElement(1);
+System.out.println(vector);
+
+vector.setSize(2);//greater than the previous
+System.out.println(vector);
+
+Output: [1,null]
+
+Note: If the new size is less than the current size, 
 all components at index newSize and greater are discarded.
+
+Eg:
+
+Vector<Integer> vector = new Vector<>();
+vector.addElement(1);
+vector.addElement(2);
+vector.addElement(3);
+vector.addElement(4);
+System.out.println(vector);
+
+vector.setSize(2);//Less than the previous
+System.out.println(vector);
+
+Output: [1,2]
 
 Note: 
 if the new size is negative, then it throws
