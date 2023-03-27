@@ -2509,6 +2509,17 @@ ArrayIndexOutOfBoundsException .</td>
 
 </ul>
 
+<h3><i><ins> Note: </ins> Earlier when only vector class is used user needs synchronization alongside with those methods. As the java versions increases and gets updated, Vectors class introduced some disadvantages : </i></h3>
+<ul>
+<h3><i> <li><ins> 1)Performance: </ins>Due to synchronization in Vector can lead to slower performance that other efficient classes used in Collection framework of Java such as "ArrayList" . </li></i></h3>
+
+<h3><i><li><ins> 2) Legacy Codes: </ins>Due to the legacy methods exists and the codes are written with those methods(Legacy codes ) so it get harder to find support for those codes as compared to other newer classes of Collection framework . </li></i></h3>
+
+<h3><i><li><ins> 3) Unnecessary Overhead: </ins> If we don’t need the synchronization features of Vector, but if we are using the class , then it will cause unnessary overhead. </li></i></h3>
+
+<h3><i>Viewing such disadvantages , the Vector class is deprecated since Java 5, makes it not-recommended to use but not removed , hence still can be used as per requirement .</i></h3>
+</ul>
+
 </ul>
 
 
